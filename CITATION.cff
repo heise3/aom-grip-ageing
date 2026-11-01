@@ -6,6 +6,7 @@ version: 1.0.0
 date-released: 2026-11-01
 repository-code: "https://github.com/heise3/aom-grip-ageing"
 url: "https://github.com/heise3/aom-grip-ageing/releases/tag/v1.0.0"
+doi: "10.5281/zenodo.23856557"
 license: MIT
 authors:
   - family-names: Liang

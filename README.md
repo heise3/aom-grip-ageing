@@ -24,7 +24,7 @@ The selected FI screen resource contains only concept/selection/equivalence flag
 
 Original code is licensed under MIT; original aggregate outputs, research protocols and documentation are licensed under CC BY4.0. Underlying provider data and third-party materials are excluded from these licenses. The authors expressly confirmed both the license selection and permission to release the selected summaries under their accepted provider agreements. See LICENSE and LICENSE-DATA-CC-BY-4.0.md.
 
-Version v1.0.0 is the public code/aggregate release, not a new statistical analysis. Cite the released snapshot at https://github.com/heise3/aom-grip-ageing/releases/tag/v1.0.0 . A DOI will be linked separately only after a registered archival record is publicly verified; a reserved draft DOI is not treated as a publication.
+Version v1.0.0 is the public code/aggregate release, not a new statistical analysis. Cite the released snapshot at https://github.com/heise3/aom-grip-ageing/releases/tag/v1.0.0 . The identical versioned archive is permanently available at https://doi.org/10.5281/zenodo.23856557 (Zenodo); the public record and downloaded ZIP were independently verified. The v1.0.0 tag and release asset retain their original bytes.
 
 Suppression is part of the display: <10 and complementary withheld values remain as released. MHAS 262 weighted-description /270 prognosis denominators, including 8 missing weights, are the explicit approved presentation exception. The archive is not an independent certification of all provider-specific permissions.
 
