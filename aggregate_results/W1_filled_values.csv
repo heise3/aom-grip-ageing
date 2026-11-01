@@ -1,0 +1,51 @@
+item,value,meaning,source_file,source_csv_line,source_column,transform
+CHARLS_baseline_age65,4513.0,CHARLS baseline_age65,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,4,n,extracted
+CHARLS_sex_BMI_grip_available_after_QC,3455.0,CHARLS sex_BMI_grip_available_after_QC,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,5,n,extracted
+CHARLS_confirmed_eligible_with_grip,336.0,CHARLS confirmed_eligible_with_grip,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,6,n,extracted
+CHARLS_candidate_percent,9.725036179450072,"Unweighted candidates / valid sex,BMI,grip",outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,6,n,100*confirmed_eligible_with_grip/sex_BMI_grip_available_after_QC
+ELSA_baseline_age65,5685.0,ELSA baseline_age65,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,13,n,extracted
+ELSA_sex_BMI_grip_available_after_QC,4202.0,ELSA sex_BMI_grip_available_after_QC,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,14,n,extracted
+ELSA_confirmed_eligible_with_grip,2044.0,ELSA confirmed_eligible_with_grip,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,15,n,extracted
+ELSA_candidate_percent,48.64350309376487,"Unweighted candidates / valid sex,BMI,grip",outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,15,n,100*confirmed_eligible_with_grip/sex_BMI_grip_available_after_QC
+MHAS_baseline_age65,7243.0,MHAS baseline_age65,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,20,n,extracted
+MHAS_sex_BMI_grip_available_after_QC,762.0,MHAS sex_BMI_grip_available_after_QC,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,21,n,extracted
+MHAS_confirmed_eligible_with_grip,358.0,MHAS confirmed_eligible_with_grip,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,22,n,extracted
+MHAS_candidate_percent,46.981627296587924,"Unweighted candidates / valid sex,BMI,grip",outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,22,n,100*confirmed_eligible_with_grip/sex_BMI_grip_available_after_QC
+SHARE_baseline_age65,28573.0,SHARE baseline_age65,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,29,n,extracted
+SHARE_sex_BMI_grip_available_after_QC,24454.0,SHARE sex_BMI_grip_available_after_QC,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,30,n,extracted
+SHARE_confirmed_eligible_with_grip,9533.0,SHARE confirmed_eligible_with_grip,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,31,n,extracted
+SHARE_candidate_percent,38.983397399198495,"Unweighted candidates / valid sex,BMI,grip",outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,31,n,100*confirmed_eligible_with_grip/sex_BMI_grip_available_after_QC
+KLoSA_baseline_age65,4134.0,KLoSA baseline_age65,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,38,n,extracted
+KLoSA_sex_BMI_grip_available_after_QC,3223.0,KLoSA sex_BMI_grip_available_after_QC,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,39,n,extracted
+KLoSA_confirmed_eligible_with_grip,216.0,KLoSA confirmed_eligible_with_grip,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,40,n,extracted
+KLoSA_candidate_percent,6.7018305926155755,"Unweighted candidates / valid sex,BMI,grip",outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_flow.csv,40,n,100*confirmed_eligible_with_grip/sex_BMI_grip_available_after_QC
+CHARLS_Normal_n,184.0,Primary prognosis complete-case people,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_table1_all.csv,8,n,extracted
+CHARLS_Low_n,22.0,Primary prognosis complete-case people,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_table1_all.csv,23,n,extracted
+CHARLS_All_n,206.0,Primary prognosis complete-case people,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_table1_all.csv,38,n,extracted
+CHARLS_BMI_difference,-0.09023094177246094,Mean BMI low minus normal,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_table1_all.csv,23,mean,Low mean - Normal mean (unrounded)
+CHARLS_landmark_n,139.0,First-revisit event-free landmark,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/figdata/fig3c_landmark.csv,2,n,extracted
+CHARLS_landmark_events_n,77.0,First-revisit event-free landmark,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/figdata/fig3c_landmark.csv,2,events_n,extracted
+CHARLS_landmark_effect,1.1709784330261785,First-revisit event-free landmark,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/figdata/fig3c_landmark.csv,2,effect,extracted
+CHARLS_landmark_ci_low,0.5525390812040285,First-revisit event-free landmark,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/figdata/fig3c_landmark.csv,2,ci_low,extracted
+CHARLS_landmark_ci_high,2.4816172054735146,First-revisit event-free landmark,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/figdata/fig3c_landmark.csv,2,ci_high,extracted
+CHARLS_events_n,128.0,Primary composite events,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/figdata/fig3a_primary.csv,2,events_n,extracted
+MHAS_Normal_n,204.0,Primary prognosis complete-case people,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_table1_all.csv,53,n,extracted
+MHAS_Low_n,66.0,Primary prognosis complete-case people,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_table1_all.csv,68,n,extracted
+MHAS_All_n,270.0,Primary prognosis complete-case people,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_table1_all.csv,83,n,extracted
+MHAS_BMI_difference,0.15139198303222656,Mean BMI low minus normal,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_table1_all.csv,68,mean,Low mean - Normal mean (unrounded)
+MHAS_landmark_n,176.0,First-revisit event-free landmark,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/figdata/fig3c_landmark.csv,3,n,extracted
+MHAS_landmark_events_n,80.0,First-revisit event-free landmark,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/figdata/fig3c_landmark.csv,3,events_n,extracted
+MHAS_landmark_effect,1.9670614950783938,First-revisit event-free landmark,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/figdata/fig3c_landmark.csv,3,effect,extracted
+MHAS_landmark_ci_low,1.1371368823572605,First-revisit event-free landmark,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/figdata/fig3c_landmark.csv,3,ci_low,extracted
+MHAS_landmark_ci_high,3.402695827963126,First-revisit event-free landmark,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/figdata/fig3c_landmark.csv,3,ci_high,extracted
+MHAS_events_n,149.0,Primary composite events,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/figdata/fig3a_primary.csv,3,events_n,extracted
+SHARE_Normal_n,5403.0,Primary prognosis complete-case people,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_table1_all.csv,98,n,extracted
+SHARE_Low_n,388.0,Primary prognosis complete-case people,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_table1_all.csv,128,n,extracted
+SHARE_All_n,5791.0,Primary prognosis complete-case people,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_table1_all.csv,158,n,extracted
+SHARE_BMI_difference,0.3925647735595703,Mean BMI low minus normal,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/tables/T1_table1_all.csv,128,mean,Low mean - Normal mean (unrounded)
+SHARE_landmark_n,4043.0,First-revisit event-free landmark,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/figdata/fig3c_landmark.csv,4,n,extracted
+SHARE_landmark_events_n,1619.0,First-revisit event-free landmark,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/figdata/fig3c_landmark.csv,4,events_n,extracted
+SHARE_landmark_effect,1.5665188911334382,First-revisit event-free landmark,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/figdata/fig3c_landmark.csv,4,effect,extracted
+SHARE_landmark_ci_low,1.310348282557221,First-revisit event-free landmark,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/figdata/fig3c_landmark.csv,4,ci_low,extracted
+SHARE_landmark_ci_high,1.8727703687212451,First-revisit event-free landmark,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/figdata/fig3c_landmark.csv,4,ci_high,extracted
+SHARE_events_n,2573.0,Primary composite events,outputs/A_AGGREGATE_REVIEW_v0_7_20261031/figdata/fig3a_primary.csv,4,events_n,extracted

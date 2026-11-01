@@ -1,0 +1,8 @@
+{
+  "sha256": "1eb242b3f4a1487a36a0f1315a014fc4f9be65e393586a9526da36acaf96bea0",
+  "date": "2026-10-31",
+  "post_hoc": true,
+  "author_decisions_received": true,
+  "implementation_fix_before_AUC_estimates": true,
+  "source_terms_separate_gate": true
+}

@@ -1,0 +1,18 @@
+# Never add participant data, credentials or run caches.
+*.dta
+*.sav
+*.rds
+*.sas7bdat
+*.parquet
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.pyc
+__pycache__/
+.DS_Store
+.env
+.env.*
+/participant_data/
+/local_runs/
+_checkpoints/

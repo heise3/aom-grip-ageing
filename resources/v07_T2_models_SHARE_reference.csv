@@ -1,0 +1,2 @@
+cohort,analysis,status,reason,post_hoc,FI_version,outcome,n,events_n,log_effect,se,effect,ci_low,ci_high,p
+SHARE,grip_adjusted_FI,OK,,post hoc; v0.7 author decisions2026-10-31,main,composite,5787.0,2569.0,0.32024339091407317,0.07356694639607941,1.377462985514554,1.1925002768954296,1.5911143277906776,1.342332416920662e-05

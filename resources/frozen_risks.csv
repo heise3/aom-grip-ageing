@@ -1,0 +1,10 @@
+cohort,measure,low_grip,nominal_years,risk,ci_low,ci_high,standardization_n,status,method,interpolation,post_hoc
+CHARLS,risk,0.0,9,0.6998526869394907,0.619809968614761,0.7693156837049664,SUPPRESSED_CROSS_VERSION,OK,original_cloglog_fixed_empirical_standardization_cluster_delta,observed_wave_endpoint,"post hoc, added after reviewing v1 and v1.1 results; v1.2 measurement QC"
+CHARLS,risk,1.0,9,0.7656428558669329,0.5714003914713747,0.8889610329609465,SUPPRESSED_CROSS_VERSION,OK,original_cloglog_fixed_empirical_standardization_cluster_delta,observed_wave_endpoint,"post hoc, added after reviewing v1 and v1.1 results; v1.2 measurement QC"
+CHARLS,risk_difference_low_minus_normal,,9,0.06579016892744227,-0.10973356023911371,0.24131389809399825,SUPPRESSED_CROSS_VERSION,OK,paired_joint_delta_Wald,,"post hoc, added after reviewing v1 and v1.1 results; v1.2 measurement QC"
+MHAS,risk,0.0,9,0.614618260854784,0.5390271543236737,0.6850563071084526,270,OK,original_cloglog_fixed_empirical_standardization_cluster_delta,observed_wave_endpoint,"post hoc, added after reviewing v1 results"
+MHAS,risk,1.0,9,0.7325544081348411,0.6258840920048322,0.8176704167892082,270,OK,original_cloglog_fixed_empirical_standardization_cluster_delta,observed_wave_endpoint,"post hoc, added after reviewing v1 results"
+MHAS,risk_difference_low_minus_normal,,9,0.11793614728005708,0.0025016832232053615,0.23337061133690878,270,OK,paired_joint_delta_Wald,,"post hoc, added after reviewing v1 results"
+SHARE,risk,0.0,9,0.5254906122727648,0.510827890171966,0.5401095085908211,5791,OK,original_cloglog_fixed_empirical_standardization_cluster_delta,SHARE constant hazard within years8-11,"post hoc, added after reviewing v1 results"
+SHARE,risk,1.0,9,0.6823720927178071,0.6402364179413856,0.7217178201938349,5791,OK,original_cloglog_fixed_empirical_standardization_cluster_delta,SHARE constant hazard within years8-11,"post hoc, added after reviewing v1 results"
+SHARE,risk_difference_low_minus_normal,,9,0.15688148044504224,0.11566295277147283,0.19810000811861167,5791,OK,paired_joint_delta_Wald,,"post hoc, added after reviewing v1 results"

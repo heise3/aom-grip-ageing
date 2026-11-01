@@ -1,0 +1,47 @@
+{
+  "bundle_version": "A_v0.8.1_PREWRITE_COUNT_BINDING_REPAIR_20261031",
+  "python": "${PYTHON}",
+  "python_deps": "${PYTHON_DEPENDENCY_DIRECTORY}",
+  "timezone": "America/Los_Angeles",
+  "bootstrap_replicates": 500,
+  "bootstrap_min_valid": 450,
+  "seeds": {
+    "EWGSOP2": 20261031,
+    "SDOC": 20261032,
+    "FNIH": 20261033
+  },
+  "cohorts": [
+    "CHARLS",
+    "ELSA",
+    "MHAS",
+    "SHARE",
+    "KLoSA"
+  ],
+  "provider_min_cell": {
+    "CHARLS": 1,
+    "ELSA": 3,
+    "MHAS": 1,
+    "SHARE": 1,
+    "KLoSA": 1
+  },
+  "disclosure_note": "ELSA3 is the reviewed mandatory minimum.1 means no fixed positive-cell suppression, not a claim that every accepted agreement has no additional conditions. Researcher reviews actual agreement before release.",
+  "FI_min_items_main": 30,
+  "FI_min_items_noMob": 30,
+  "FI_common_explicit_prior_exception": true,
+  "person_nonmissing_fraction": 0.8,
+  "dependencies": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "patsy": "1.0.3",
+    "statsmodels": "0.15.0",
+    "scipy": "1.18.1"
+  },
+  "R1_seed": 20261031,
+  "R1_zero_logHR_tolerance": 1e-08,
+  "requested_cohorts": [
+    "CHARLS",
+    "MHAS",
+    "SHARE"
+  ],
+  "original_review_source_sha256": "4fd7c92888e6b4728438dc939ade69acd2b4fafab4bf1dc08bf8cac2a24042e8"
+}

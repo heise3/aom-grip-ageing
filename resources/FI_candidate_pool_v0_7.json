@@ -1,0 +1,4463 @@
+{
+  "date": "2026-10-31",
+  "post_hoc": true,
+  "pool_frozen_before_FI_screening": true,
+  "selection_denominator": "unweighted all eligible baseline candidates age>=65 with valid grip/BMI/sex",
+  "rules": {
+    "prevalence_min": 0.01,
+    "prevalence_max": 0.8,
+    "missing_max": 0.1,
+    "age_slope": "strictly_positive_unadjusted_OLS_no_P_cutoff",
+    "main_min_items": 30,
+    "noMob_min_items": 30,
+    "common_min_items_exception": true,
+    "person_nonmissing_fraction": 0.8
+  },
+  "items": [
+    {
+      "cohort": "CHARLS",
+      "concept": "IADL_moneya",
+      "field": "r1moneya",
+      "suffix": "moneya",
+      "domain": "IADL",
+      "label": "r1moneya:w1 r Some Diff-Managing money",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        92,
+        93
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "IADL_medsa",
+      "field": "r1medsa",
+      "suffix": "medsa",
+      "domain": "IADL",
+      "label": "r1medsa:w1 r Some Diff-Take medications",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        92,
+        93,
+        94
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "IADL_shopa",
+      "field": "r1shopa",
+      "suffix": "shopa",
+      "domain": "IADL",
+      "label": "r1shopa:w1 r Some Diff-Shop for grocery",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        92,
+        93,
+        94
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "IADL_mealsa",
+      "field": "r1mealsa",
+      "suffix": "mealsa",
+      "domain": "IADL",
+      "label": "r1mealsa:w1 r Some Diff-Prepare hot meal",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        92,
+        93,
+        94
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "IADL_housewka",
+      "field": "r1housewka",
+      "suffix": "housewka",
+      "domain": "IADL",
+      "label": "r1housewka:w1 r Some Diff-cleaning house",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        92,
+        93,
+        94
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mobility_joga",
+      "field": "r1joga",
+      "suffix": "joga",
+      "domain": "mobility",
+      "label": "r1joga:w1 r Some Diff-Jog 1km",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        97,
+        98,
+        99
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mobility_walk1kma",
+      "field": "r1walk1kma",
+      "suffix": "walk1kma",
+      "domain": "mobility",
+      "label": "r1walk1kma:w1 r Some Diff-Walk 1km",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        97,
+        98,
+        100
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mobility_walk100a",
+      "field": "r1walk100a",
+      "suffix": "walk100a",
+      "domain": "mobility",
+      "label": "r1walk100a:w1 r Some Diff-Walk 100m",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        97,
+        98,
+        100
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mobility_chaira",
+      "field": "r1chaira",
+      "suffix": "chaira",
+      "domain": "mobility",
+      "label": "r1chaira:w1 r Some Diff-Get up fr chair",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        97,
+        98,
+        100
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mobility_climsa",
+      "field": "r1climsa",
+      "suffix": "climsa",
+      "domain": "mobility",
+      "label": "r1climsa:w1 r Some Diff-Clmb sev flt str",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        97,
+        99,
+        100
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mobility_stoopa",
+      "field": "r1stoopa",
+      "suffix": "stoopa",
+      "domain": "mobility",
+      "label": "r1stoopa:w1 r Some Diff-Stoop/Kneel/Crch",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        97,
+        99,
+        101
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mobility_lifta",
+      "field": "r1lifta",
+      "suffix": "lifta",
+      "domain": "mobility",
+      "label": "r1lifta:w1 r Some Diff-Lift/carry 10jin",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        97,
+        99,
+        101
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mobility_dimea",
+      "field": "r1dimea",
+      "suffix": "dimea",
+      "domain": "mobility",
+      "label": "r1dimea:w1 r Some Diff-Pick up a small coin",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        98,
+        99,
+        101
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mobility_armsa",
+      "field": "r1armsa",
+      "suffix": "armsa",
+      "domain": "mobility",
+      "label": "r1armsa:w1 r Some Diff-Rch/xtnd arms up",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        98,
+        99,
+        101
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "hypertension",
+      "field": "r1hibpe",
+      "suffix": "hibpe",
+      "domain": "chronic",
+      "label": "r1hibpe:w1 r Ever had high blood pressure",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        114,
+        117,
+        121,
+        129
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "diabetes",
+      "field": "r1diabe",
+      "suffix": "diabe",
+      "domain": "chronic",
+      "label": "r1diabe:w1 r ever had diabetes",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        114,
+        118,
+        122
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "cancer",
+      "field": "r1cancre",
+      "suffix": "cancre",
+      "domain": "chronic",
+      "label": "r1cancre:w1 r ever had cancer",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        114,
+        118,
+        122
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "lung_disease_nonequivalent",
+      "field": "r1lunge",
+      "suffix": "lunge",
+      "domain": "chronic",
+      "label": "r1lunge:w1 r ever had lung disease",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        114,
+        118,
+        123
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "heart_disease_nonequivalent",
+      "field": "r1hearte",
+      "suffix": "hearte",
+      "domain": "chronic",
+      "label": "r1hearte:w1 r ever had heart problem",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        115,
+        119,
+        123
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "stroke",
+      "field": "r1stroke",
+      "suffix": "stroke",
+      "domain": "chronic",
+      "label": "r1stroke:w1 r ever had stroke",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        115,
+        119,
+        124
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "chronic_psyche",
+      "field": "r1psyche",
+      "suffix": "psyche",
+      "domain": "chronic",
+      "label": "r1psyche:w1 r ever had psych problem",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        115,
+        119,
+        124
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "arthritis",
+      "field": "r1arthre",
+      "suffix": "arthre",
+      "domain": "chronic",
+      "label": "r1arthre:w1 r ever had arthritis",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        116,
+        119,
+        125
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "chronic_livere",
+      "field": "r1livere",
+      "suffix": "livere",
+      "domain": "chronic",
+      "label": "r1livere:w1 r ever had liver disease",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        116,
+        120,
+        126
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "chronic_memrye",
+      "field": "r1memrye",
+      "suffix": "memrye",
+      "domain": "chronic",
+      "label": "r1memrye:w1 r ever had memory problem",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        134,
+        135
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "chronic_kidneye",
+      "field": "r1kidneye",
+      "suffix": "kidneye",
+      "domain": "chronic",
+      "label": "r1kidneye:w1 r ever had kidney disease",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        116,
+        120,
+        126
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "chronic_digeste",
+      "field": "r1digeste",
+      "suffix": "digeste",
+      "domain": "chronic",
+      "label": "r1digeste:w1 r ever had stomach/digestive disease",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        117,
+        121,
+        127
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "chronic_asthmae",
+      "field": "r1asthmae",
+      "suffix": "asthmae",
+      "domain": "chronic",
+      "label": "r1asthmae:w1 r ever had asthma",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        117,
+        121,
+        128
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mood_depresl",
+      "field": "r1depresl",
+      "suffix": "depresl",
+      "domain": "mood",
+      "label": "r1depresl:w1 r CESD: Felt depressed",
+      "codes": {
+        "1": 0.0,
+        "2": 0.3333333333333333,
+        "3": 0.6666666666666666,
+        "4": 1.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        817,
+        818,
+        820
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mood_effortl",
+      "field": "r1effortl",
+      "suffix": "effortl",
+      "domain": "mood",
+      "label": "r1effortl:w1 r CESD: Everything an effort",
+      "codes": {
+        "1": 0.0,
+        "2": 0.3333333333333333,
+        "3": 0.6666666666666666,
+        "4": 1.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        817,
+        819,
+        821
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mood_sleeprl",
+      "field": "r1sleeprl",
+      "suffix": "sleeprl",
+      "domain": "mood",
+      "label": "r1sleeprl:w1 r CESD: Sleep was restless",
+      "codes": {
+        "1": 0.0,
+        "2": 0.3333333333333333,
+        "3": 0.6666666666666666,
+        "4": 1.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        817,
+        819,
+        821
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mood_whappyl",
+      "field": "r1whappyl",
+      "suffix": "whappyl",
+      "domain": "mood",
+      "label": "r1whappyl:w1 r CESD: Was happy",
+      "codes": {
+        "1": 1.0,
+        "2": 0.6666666666666666,
+        "3": 0.3333333333333333,
+        "4": 0.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1; reverse positive affect",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        817,
+        819,
+        821
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mood_flonel",
+      "field": "r1flonel",
+      "suffix": "flonel",
+      "domain": "mood",
+      "label": "r1flonel:w1 r CESD: Felt lonely",
+      "codes": {
+        "1": 0.0,
+        "2": 0.3333333333333333,
+        "3": 0.6666666666666666,
+        "4": 1.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        817,
+        819,
+        821
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mood_botherl",
+      "field": "r1botherl",
+      "suffix": "botherl",
+      "domain": "mood",
+      "label": "r1botherl:w1 r CESD: Bothered by little things",
+      "codes": {
+        "1": 0.0,
+        "2": 0.3333333333333333,
+        "3": 0.6666666666666666,
+        "4": 1.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        817,
+        819,
+        822
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mood_goingl",
+      "field": "r1goingl",
+      "suffix": "goingl",
+      "domain": "mood",
+      "label": "r1goingl:w1 r CESD: Could not get going",
+      "codes": {
+        "1": 0.0,
+        "2": 0.3333333333333333,
+        "3": 0.6666666666666666,
+        "4": 1.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        817,
+        819,
+        822
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mood_mindtsl",
+      "field": "r1mindtsl",
+      "suffix": "mindtsl",
+      "domain": "mood",
+      "label": "r1mindtsl:w1 r CESD: Had trouble keeping mind on what is doing",
+      "codes": {
+        "1": 0.0,
+        "2": 0.3333333333333333,
+        "3": 0.6666666666666666,
+        "4": 1.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        818,
+        819,
+        822
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mood_fhopel",
+      "field": "r1fhopel",
+      "suffix": "fhopel",
+      "domain": "mood",
+      "label": "r1fhopel:w1 r CESD: Feel hopeful about the future",
+      "codes": {
+        "1": 1.0,
+        "2": 0.6666666666666666,
+        "3": 0.3333333333333333,
+        "4": 0.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1; reverse positive affect",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        818,
+        820,
+        823
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "mood_fearll",
+      "field": "r1fearll",
+      "suffix": "fearll",
+      "domain": "mood",
+      "label": "r1fearll:w1 r CESD: Feel fearful",
+      "codes": {
+        "1": 0.0,
+        "2": 0.3333333333333333,
+        "3": 0.6666666666666666,
+        "4": 1.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        818,
+        820,
+        823
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "self_rated_health",
+      "field": "r1shlt",
+      "suffix": "shlt",
+      "domain": "self_health",
+      "label": "r1shlt:w1 r Self-report of health",
+      "codes": {
+        "1": 0.0,
+        "2": 0.25,
+        "3": 0.5,
+        "4": 0.75,
+        "5": 1.0
+      },
+      "scoring_rule": "ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        18,
+        20,
+        21,
+        78,
+        79
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "CHARLS",
+      "concept": "self_memory_slfmem",
+      "field": "r1slfmem",
+      "suffix": "slfmem",
+      "domain": "self_memory",
+      "label": "r1slfmem:w1 r Self-reported memory",
+      "codes": {
+        "1": 0.0,
+        "2": 0.25,
+        "3": 0.5,
+        "4": 0.75,
+        "5": 1.0
+      },
+      "scoring_rule": "ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        205
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "IADL_mapa",
+      "field": "r6mapa",
+      "suffix": "mapa",
+      "domain": "IADL",
+      "label": "r6mapa:w6 R Some Diff-Use a map",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        158,
+        160,
+        163
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "IADL_phonea",
+      "field": "r6phonea",
+      "suffix": "phonea",
+      "domain": "IADL",
+      "label": "r6phonea:w6 R Some Diff-Use a telephone",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        158,
+        161,
+        164
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "IADL_moneya",
+      "field": "r6moneya",
+      "suffix": "moneya",
+      "domain": "IADL",
+      "label": "r6moneya:w6 R Some Diff-Managing money",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        158,
+        161,
+        164
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "IADL_medsa",
+      "field": "r6medsa",
+      "suffix": "medsa",
+      "domain": "IADL",
+      "label": "r6medsa:w6 R Some Diff-Take medications",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        159,
+        161,
+        165
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "IADL_shopa",
+      "field": "r6shopa",
+      "suffix": "shopa",
+      "domain": "IADL",
+      "label": "r6shopa:w6 R Some Diff-Shop for grocery",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        159,
+        162,
+        165
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "IADL_mealsa",
+      "field": "r6mealsa",
+      "suffix": "mealsa",
+      "domain": "IADL",
+      "label": "r6mealsa:w6 R Some Diff-Prepare hot meal",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        159,
+        162,
+        165
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "IADL_housewka",
+      "field": "r6housewka",
+      "suffix": "housewka",
+      "domain": "IADL",
+      "label": "r6housewka:w6 R Some Diff-Doing work around the house or garden",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        160,
+        162,
+        166
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "mobility_walk100a",
+      "field": "r6walk100a",
+      "suffix": "walk100a",
+      "domain": "mobility",
+      "label": "r6walk100a:w6 R Some Diff-Walk 100y",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        170,
+        173,
+        176
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "mobility_sita",
+      "field": "r6sita",
+      "suffix": "sita",
+      "domain": "mobility",
+      "label": "r6sita:w6 R Some Diff-Sit for 2 hours",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        170,
+        173,
+        177
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "mobility_chaira",
+      "field": "r6chaira",
+      "suffix": "chaira",
+      "domain": "mobility",
+      "label": "r6chaira:w6 R Some Diff-Get up fr chair",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        170,
+        174,
+        177
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "mobility_climsa",
+      "field": "r6climsa",
+      "suffix": "climsa",
+      "domain": "mobility",
+      "label": "r6climsa:w6 R Some Diff-Clmb sev flt str",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        171,
+        174,
+        178
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "mobility_clim1a",
+      "field": "r6clim1a",
+      "suffix": "clim1a",
+      "domain": "mobility",
+      "label": "r6clim1a:w6 R Some Diff-Clmb 1 flt str",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        171,
+        174,
+        178
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "mobility_stoopa",
+      "field": "r6stoopa",
+      "suffix": "stoopa",
+      "domain": "mobility",
+      "label": "r6stoopa:w6 R Some Diff-Stoop/Kneel/Crch",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        171,
+        175,
+        178
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "mobility_lifta",
+      "field": "r6lifta",
+      "suffix": "lifta",
+      "domain": "mobility",
+      "label": "r6lifta:w6 R Some Diff-Lift/carry 10lbs",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        172,
+        175,
+        179
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "mobility_dimea",
+      "field": "r6dimea",
+      "suffix": "dimea",
+      "domain": "mobility",
+      "label": "r6dimea:w6 R Some Diff-Pick up a 5p coin",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        172,
+        175,
+        179
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "mobility_armsa",
+      "field": "r6armsa",
+      "suffix": "armsa",
+      "domain": "mobility",
+      "label": "r6armsa:w6 R Some Diff-Rch/xtnd arms up",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        172,
+        175,
+        180
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "mobility_pusha",
+      "field": "r6pusha",
+      "suffix": "pusha",
+      "domain": "mobility",
+      "label": "r6pusha:w6 R Some Diff-Push/pull lg obj",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        173,
+        176,
+        180
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "hypertension",
+      "field": "r6hibpe",
+      "suffix": "hibpe",
+      "domain": "chronic",
+      "label": "r6hibpe:w6 r ever had high blood pressure",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        237,
+        248,
+        260
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "diabetes",
+      "field": "r6diabe",
+      "suffix": "diabe",
+      "domain": "chronic",
+      "label": "r6diabe:w6 r ever had diabetes",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        237,
+        249,
+        261
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "cancer",
+      "field": "r6cancre",
+      "suffix": "cancre",
+      "domain": "chronic",
+      "label": "r6cancre:w6 r ever had cancer",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        238,
+        250,
+        262
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "lung_disease_nonequivalent",
+      "field": "r6lunge",
+      "suffix": "lunge",
+      "domain": "chronic",
+      "label": "r6lunge:w6 r ever had lung disease",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        239,
+        250,
+        262
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "heart_disease_nonequivalent",
+      "field": "r6hearte",
+      "suffix": "hearte",
+      "domain": "chronic",
+      "label": "r6hearte:w6 r ever had heart problems",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        239,
+        251,
+        263
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "stroke",
+      "field": "r6stroke",
+      "suffix": "stroke",
+      "domain": "chronic",
+      "label": "r6stroke:w6 r ever had stroke",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        240,
+        252,
+        264
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "arthritis",
+      "field": "r6arthre",
+      "suffix": "arthre",
+      "domain": "chronic",
+      "label": "r6arthre:w6 r ever had arthritis",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        241,
+        253,
+        265
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "chronic_psyche",
+      "field": "r6psyche",
+      "suffix": "psyche",
+      "domain": "chronic",
+      "label": "r6psyche:w6 r ever had psych problems",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        241,
+        252,
+        265
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "chronic_parkine",
+      "field": "r6parkine",
+      "suffix": "parkine",
+      "domain": "chronic",
+      "label": "r6parkine:w6 r ever had parkinson disease",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        244,
+        255,
+        268
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "chronic_osteoe",
+      "field": "r6osteoe",
+      "suffix": "osteoe",
+      "domain": "chronic",
+      "label": "r6osteoe:w6 r ever had osteoporosis",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        248,
+        259,
+        273
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "chronic_memrye",
+      "field": "r6memrye",
+      "suffix": "memrye",
+      "domain": "chronic",
+      "label": "r6memrye:w6 r ever had memory problem",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        322,
+        324,
+        326
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "mood_depres",
+      "field": "r6depres",
+      "suffix": "depres",
+      "domain": "mood",
+      "label": "r6depres:w6 r CESD: Felt depressed (0,1)",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        1310,
+        1313,
+        1316
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "mood_effort",
+      "field": "r6effort",
+      "suffix": "effort",
+      "domain": "mood",
+      "label": "r6effort:w6 r CESD: Everything an effort (0,1)",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        1310,
+        1313,
+        1317
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "mood_sleepr",
+      "field": "r6sleepr",
+      "suffix": "sleepr",
+      "domain": "mood",
+      "label": "r6sleepr:w6 r CESD: Sleep was restless (0,1)",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        1310,
+        1314,
+        1317
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "mood_whappy",
+      "field": "r6whappy",
+      "suffix": "whappy",
+      "domain": "mood",
+      "label": "r6whappy:w6 r CESD: Was happy (0,1)",
+      "codes": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "scoring_rule": "binary0/1 reversed for positive affect",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        1311,
+        1314,
+        1318
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "mood_flone",
+      "field": "r6flone",
+      "suffix": "flone",
+      "domain": "mood",
+      "label": "r6flone:w6 r CESD: Felt lonely (0,1)",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        1311,
+        1314,
+        1318
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "mood_fsad",
+      "field": "r6fsad",
+      "suffix": "fsad",
+      "domain": "mood",
+      "label": "r6fsad:w6 r CESD: Felt sad (0,1)",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        1311,
+        1315,
+        1319
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "mood_going",
+      "field": "r6going",
+      "suffix": "going",
+      "domain": "mood",
+      "label": "r6going:w6 r CESD: Could not get going (0,1)",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        1312,
+        1315,
+        1319
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "mood_enlife",
+      "field": "r6enlife",
+      "suffix": "enlife",
+      "domain": "mood",
+      "label": "r6enlife:w6 r CESD: Enjoyed life (0,1)",
+      "codes": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "scoring_rule": "binary0/1 reversed for positive affect",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        1312,
+        1315,
+        1320
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "self_rated_health",
+      "field": "r6shlt",
+      "suffix": "shlt",
+      "domain": "self_health",
+      "label": "r6shlt:w6 r self-report of health",
+      "codes": {
+        "1": 0.0,
+        "2": 0.25,
+        "3": 0.5,
+        "4": 0.75,
+        "5": 1.0
+      },
+      "scoring_rule": "ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        23,
+        24,
+        142,
+        143
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "sensory_dsight",
+      "field": "r6dsight",
+      "suffix": "dsight",
+      "domain": "sensory",
+      "label": "r6dsight:w6 r self-rated distance eyesight",
+      "codes": {
+        "1": 0.0,
+        "2": 0.25,
+        "3": 0.5,
+        "4": 0.75,
+        "5": 1.0
+      },
+      "scoring_rule": "ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        338,
+        339,
+        341
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "sensory_nsight",
+      "field": "r6nsight",
+      "suffix": "nsight",
+      "domain": "sensory",
+      "label": "r6nsight:w6 r self-rated near eyesight",
+      "codes": {
+        "1": 0.0,
+        "2": 0.25,
+        "3": 0.5,
+        "4": 0.75,
+        "5": 1.0
+      },
+      "scoring_rule": "ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        338,
+        340,
+        342
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "sensory_hearing",
+      "field": "r6hearing",
+      "suffix": "hearing",
+      "domain": "sensory",
+      "label": "r6hearing:w6 r self-rated hearing",
+      "codes": {
+        "1": 0.0,
+        "2": 0.25,
+        "3": 0.5,
+        "4": 0.75,
+        "5": 1.0
+      },
+      "scoring_rule": "ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        345
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "other_fall",
+      "field": "r6fall",
+      "suffix": "fall",
+      "domain": "other",
+      "label": "r6fall:w6 r fallen down in last 2 years",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        351,
+        352,
+        354
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "other_urinai",
+      "field": "r6urinai",
+      "suffix": "urinai",
+      "domain": "other",
+      "label": "r6urinai:w6 r any urinary incontinence",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        374
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "ELSA",
+      "concept": "other_painfr",
+      "field": "r6painfr",
+      "suffix": "painfr",
+      "domain": "other",
+      "label": "r6painfr:w6 r frequent problems with pain",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        369,
+        370
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "IADL_moneya",
+      "field": "r3moneya",
+      "suffix": "moneya",
+      "domain": "IADL",
+      "label": "r3moneya: w3 R Some difficulty-Managing money",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        96,
+        97
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "IADL_medsa",
+      "field": "r3medsa",
+      "suffix": "medsa",
+      "domain": "IADL",
+      "label": "r3medsa: w3 R Some difficulty-Taking medications",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        96,
+        97
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "IADL_shopa",
+      "field": "r3shopa",
+      "suffix": "shopa",
+      "domain": "IADL",
+      "label": "r3shopa: w3 R Some difficulty-Shopping for groceries",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        96,
+        97,
+        98
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "IADL_mealsa",
+      "field": "r3mealsa",
+      "suffix": "mealsa",
+      "domain": "IADL",
+      "label": "r3mealsa: w3 R Some difficulty-Preparing hot meals",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        96,
+        97,
+        98
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mobility_walksa",
+      "field": "r3walksa",
+      "suffix": "walksa",
+      "domain": "mobility",
+      "label": "r3walksa: w3 R Some difficulty-Walking several blocks",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        111,
+        113,
+        115
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mobility_joga",
+      "field": "r3joga",
+      "suffix": "joga",
+      "domain": "mobility",
+      "label": "r3joga: w3 R Some difficulty-Run/Jogging one km",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        111,
+        113,
+        115
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mobility_walk1a",
+      "field": "r3walk1a",
+      "suffix": "walk1a",
+      "domain": "mobility",
+      "label": "r3walk1a: w3 R Some difficulty-Walking one block",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        111,
+        113,
+        116
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mobility_sita",
+      "field": "r3sita",
+      "suffix": "sita",
+      "domain": "mobility",
+      "label": "r3sita: w3 R Some difficulty-Sitting for 2 hours",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        111,
+        113,
+        116
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mobility_chaira",
+      "field": "r3chaira",
+      "suffix": "chaira",
+      "domain": "mobility",
+      "label": "r3chaira: w3 R Some difficulty-Getting up from chair",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        111,
+        114,
+        116
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mobility_climsa",
+      "field": "r3climsa",
+      "suffix": "climsa",
+      "domain": "mobility",
+      "label": "r3climsa: w3 R Some difficulty-Climbing sev flts stairs",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        112,
+        114,
+        117
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mobility_clim1a",
+      "field": "r3clim1a",
+      "suffix": "clim1a",
+      "domain": "mobility",
+      "label": "r3clim1a: w3 R Some difficulty-Climbing one flt stairs",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        112,
+        114,
+        117
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mobility_stoopa",
+      "field": "r3stoopa",
+      "suffix": "stoopa",
+      "domain": "mobility",
+      "label": "r3stoopa: w3 R Some difficulty-Stoop/kneel/crouching",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        112,
+        114,
+        117
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mobility_lifta",
+      "field": "r3lifta",
+      "suffix": "lifta",
+      "domain": "mobility",
+      "label": "r3lifta: w3 R Some difficulty-Lift/carrying 5 kgs",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        112,
+        114,
+        117
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mobility_dimea",
+      "field": "r3dimea",
+      "suffix": "dimea",
+      "domain": "mobility",
+      "label": "r3dimea: w3 R Some difficulty-Picking up a coin",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        112,
+        115,
+        118
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mobility_armsa",
+      "field": "r3armsa",
+      "suffix": "armsa",
+      "domain": "mobility",
+      "label": "r3armsa: w3 R Some difficulty-Reach/extending arms up",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        112,
+        115,
+        118
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mobility_pusha",
+      "field": "r3pusha",
+      "suffix": "pusha",
+      "domain": "mobility",
+      "label": "r3pusha: w3 R Some difficulty-Push/pulling large objects",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        113,
+        115,
+        118
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "hypertension",
+      "field": "r3hibpe",
+      "suffix": "hibpe",
+      "domain": "chronic",
+      "label": "r3hibpe: w3 R Ever had high blood pressure",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        151,
+        152,
+        154
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "diabetes",
+      "field": "r3diabe",
+      "suffix": "diabe",
+      "domain": "chronic",
+      "label": "r3diabe: w3 R Ever had diabetes",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        151,
+        152,
+        154
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "cancer",
+      "field": "r3cancre",
+      "suffix": "cancre",
+      "domain": "chronic",
+      "label": "r3cancre: w3 R Ever had cancer",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        151,
+        152,
+        154
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "lung_disease_nonequivalent",
+      "field": "r3respe",
+      "suffix": "respe",
+      "domain": "chronic",
+      "label": "r3respe: w3 R Ever had respiratory disease, incl asthma",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        151,
+        153,
+        154
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "heart_disease_nonequivalent",
+      "field": "r3hrtatte",
+      "suffix": "hrtatte",
+      "domain": "chronic",
+      "label": "r3hrtatte: w3 R Ever had heart attack",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        151,
+        153,
+        154
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "stroke",
+      "field": "r3stroke",
+      "suffix": "stroke",
+      "domain": "chronic",
+      "label": "r3stroke: w3 R Ever had stroke",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        152,
+        153,
+        155
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "arthritis",
+      "field": "r3arthre",
+      "suffix": "arthre",
+      "domain": "chronic",
+      "label": "r3arthre: w3 R Ever had arthritis",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        152,
+        153,
+        155
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mood_depres",
+      "field": "r3depres",
+      "suffix": "depres",
+      "domain": "mood",
+      "label": "r3depres: w3 R CESD-Felt depressed",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        747,
+        749,
+        751
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mood_effort",
+      "field": "r3effort",
+      "suffix": "effort",
+      "domain": "mood",
+      "label": "r3effort: w3 R CESD-Everything an effort",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        747,
+        749,
+        751
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mood_sleepr",
+      "field": "r3sleepr",
+      "suffix": "sleepr",
+      "domain": "mood",
+      "label": "r3sleepr: w3 R CESD-Sleep was restless",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        747,
+        749,
+        751
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mood_whappy",
+      "field": "r3whappy",
+      "suffix": "whappy",
+      "domain": "mood",
+      "label": "r3whappy: w3 R CESD-Felt happy",
+      "codes": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "scoring_rule": "binary0/1 reversed for positive affect",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        747,
+        749,
+        752
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mood_flone",
+      "field": "r3flone",
+      "suffix": "flone",
+      "domain": "mood",
+      "label": "r3flone: w3 R CESD-Felt lonely",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        747,
+        749,
+        752
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mood_enlife",
+      "field": "r3enlife",
+      "suffix": "enlife",
+      "domain": "mood",
+      "label": "r3enlife: w3 R CESD-Enjoyed life",
+      "codes": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "scoring_rule": "binary0/1 reversed for positive affect",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        748,
+        750,
+        752
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mood_fsad",
+      "field": "r3fsad",
+      "suffix": "fsad",
+      "domain": "mood",
+      "label": "r3fsad: w3 R CESD-Felt sad",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        748,
+        750,
+        752
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mood_ftired",
+      "field": "r3ftired",
+      "suffix": "ftired",
+      "domain": "mood",
+      "label": "r3ftired: w3 R CESD-Felt tired",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        748,
+        750,
+        753
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "mood_energ",
+      "field": "r3energ",
+      "suffix": "energ",
+      "domain": "mood",
+      "label": "r3energ: w3 R CESD-Had a lot of energy",
+      "codes": {
+        "0": 1.0,
+        "1": 0.0
+      },
+      "scoring_rule": "binary0/1 reversed for positive affect",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        748,
+        750,
+        753
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "self_rated_health",
+      "field": "r3shlt",
+      "suffix": "shlt",
+      "domain": "self_health",
+      "label": "r3shlt: w3 R Self-report of health",
+      "codes": {
+        "1": 0.0,
+        "2": 0.25,
+        "3": 0.5,
+        "4": 0.75,
+        "5": 1.0
+      },
+      "scoring_rule": "ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        17,
+        73
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "sensory_sight",
+      "field": "r3sight",
+      "suffix": "sight",
+      "domain": "sensory",
+      "label": "r3sight: w3 R Self-rated eyesight",
+      "codes": {
+        "1": 0.0,
+        "2": 0.25,
+        "3": 0.5,
+        "4": 0.75,
+        "5": 1.0
+      },
+      "scoring_rule": "ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        178
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "sensory_hearing",
+      "field": "r3hearing",
+      "suffix": "hearing",
+      "domain": "sensory",
+      "label": "r3hearing: w3 R Self-rated hearing",
+      "codes": {
+        "1": 0.0,
+        "2": 0.25,
+        "3": 0.5,
+        "4": 0.75,
+        "5": 1.0
+      },
+      "scoring_rule": "ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        181
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "other_fall",
+      "field": "r3fall",
+      "suffix": "fall",
+      "domain": "other",
+      "label": "r3fall: w3 R Fallen down last 2 years",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        184,
+        185,
+        186
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "MHAS",
+      "concept": "other_painfr",
+      "field": "r3painfr",
+      "suffix": "painfr",
+      "domain": "other",
+      "label": "r3painfr: w3 R Frequent problems with pain",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        199,
+        200
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "IADL_phonea",
+      "field": "r4phonea",
+      "suffix": "phonea",
+      "domain": "IADL",
+      "label": "r4phonea:w4 R Some Diff-Use telephone",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        135,
+        137,
+        139
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "IADL_medsa",
+      "field": "r4medsa",
+      "suffix": "medsa",
+      "domain": "IADL",
+      "label": "r4medsa:w4 R Some Diff-Take medications",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        135,
+        137,
+        139
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "IADL_moneya",
+      "field": "r4moneya",
+      "suffix": "moneya",
+      "domain": "IADL",
+      "label": "r4moneya:w4 R Some Diff-Managing money",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        135,
+        137,
+        140
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "IADL_shopa",
+      "field": "r4shopa",
+      "suffix": "shopa",
+      "domain": "IADL",
+      "label": "r4shopa:w4 R Some Diff-Shop for grocery",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        135,
+        137,
+        140
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "IADL_mealsa",
+      "field": "r4mealsa",
+      "suffix": "mealsa",
+      "domain": "IADL",
+      "label": "r4mealsa:w4 R Some Diff-Prepare hot meal",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        136,
+        138,
+        141
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "IADL_mapa",
+      "field": "r4mapa",
+      "suffix": "mapa",
+      "domain": "IADL",
+      "label": "r4mapa:w4 R Some Diff-Use a map",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        136,
+        138,
+        141
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "IADL_housewka",
+      "field": "r4housewka",
+      "suffix": "housewka",
+      "domain": "IADL",
+      "label": "r4housewka:w4 R some diff-doing work around house",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        136,
+        138,
+        141
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mobility_walk100a",
+      "field": "r4walk100a",
+      "suffix": "walk100a",
+      "domain": "mobility",
+      "label": "r4walk100a:w4 R Some Diff-Walk 100m",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        145,
+        147,
+        150
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mobility_sita",
+      "field": "r4sita",
+      "suffix": "sita",
+      "domain": "mobility",
+      "label": "r4sita:w4 R Some Diff-Sit for 2 hours",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        145,
+        147,
+        150
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mobility_chaira",
+      "field": "r4chaira",
+      "suffix": "chaira",
+      "domain": "mobility",
+      "label": "r4chaira:w4 R Some Diff-Get up fr chair",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        145,
+        148,
+        151
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mobility_climsa",
+      "field": "r4climsa",
+      "suffix": "climsa",
+      "domain": "mobility",
+      "label": "r4climsa:w4 R Some Diff-Clmb sev flt str",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        145,
+        148,
+        151
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mobility_clim1a",
+      "field": "r4clim1a",
+      "suffix": "clim1a",
+      "domain": "mobility",
+      "label": "r4clim1a:w4 R Some Diff-Clmb 1 flt str",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        146,
+        148,
+        152
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mobility_lifta",
+      "field": "r4lifta",
+      "suffix": "lifta",
+      "domain": "mobility",
+      "label": "r4lifta:w4 R Some Diff-Lift/carry 10lbs",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        146,
+        149,
+        152
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mobility_stoopa",
+      "field": "r4stoopa",
+      "suffix": "stoopa",
+      "domain": "mobility",
+      "label": "r4stoopa:w4 R Some Diff-Stoop/Kneel/Crch",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        146,
+        149,
+        152
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mobility_armsa",
+      "field": "r4armsa",
+      "suffix": "armsa",
+      "domain": "mobility",
+      "label": "r4armsa:w4 R Some Diff-Rch/xtnd arms up",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        146,
+        149,
+        153
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mobility_pusha",
+      "field": "r4pusha",
+      "suffix": "pusha",
+      "domain": "mobility",
+      "label": "r4pusha:w4 R Some Diff-Push/pull lg obj",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        147,
+        149,
+        153
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mobility_dimea",
+      "field": "r4dimea",
+      "suffix": "dimea",
+      "domain": "mobility",
+      "label": "r4dimea:w4 R Some Diff-Pick up a small coin",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": true,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        147,
+        150,
+        154
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "hypertension",
+      "field": "r4hibpe",
+      "suffix": "hibpe",
+      "domain": "chronic",
+      "label": "r4hibpe:w4 R ever had high blood pressure",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        198,
+        202,
+        206
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "diabetes",
+      "field": "r4diabe",
+      "suffix": "diabe",
+      "domain": "chronic",
+      "label": "r4diabe:w4 R ever had diabetes",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        198,
+        202,
+        207
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "cancer",
+      "field": "r4cancre",
+      "suffix": "cancre",
+      "domain": "chronic",
+      "label": "r4cancre:w4 R ever had cancer",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        198,
+        202,
+        207
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "lung_disease_nonequivalent",
+      "field": "r4lunge",
+      "suffix": "lunge",
+      "domain": "chronic",
+      "label": "r4lunge:w4 R ever had lung disease",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        199,
+        203,
+        208
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "heart_disease_nonequivalent",
+      "field": "r4hearte",
+      "suffix": "hearte",
+      "domain": "chronic",
+      "label": "r4hearte:w4 R ever had heart problems",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        199,
+        203,
+        208
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "stroke",
+      "field": "r4stroke",
+      "suffix": "stroke",
+      "domain": "chronic",
+      "label": "r4stroke:w4 R ever had stroke",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        199,
+        204,
+        209
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "arthritis",
+      "field": "r4arthre",
+      "suffix": "arthre",
+      "domain": "chronic",
+      "label": "r4arthre:w4 R ever had arthritis",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        200,
+        204,
+        210
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "chronic_psyche",
+      "field": "r4psyche",
+      "suffix": "psyche",
+      "domain": "chronic",
+      "label": "r4psyche:w4 R ever had psych disorder",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        200,
+        204,
+        211
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "chronic_osteoe",
+      "field": "r4osteoe",
+      "suffix": "osteoe",
+      "domain": "chronic",
+      "label": "r4osteoe:w4 R ever had osteoporosis",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        200,
+        205,
+        211
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "chronic_parkine",
+      "field": "r4parkine",
+      "suffix": "parkine",
+      "domain": "chronic",
+      "label": "r4parkine:w4 R ever had Parkinsons disease",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        201,
+        205,
+        212
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mood_depress",
+      "field": "r4depress",
+      "suffix": "depress",
+      "domain": "mood",
+      "label": "r4depress:w4 EURO-D: R Depression (0,1)",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        979,
+        982,
+        986
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mood_pessim",
+      "field": "r4pessim",
+      "suffix": "pessim",
+      "domain": "mood",
+      "label": "r4pessim:w4 EURO-D: R Pessimism (0,1)",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        979,
+        983,
+        986
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mood_suicid",
+      "field": "r4suicid",
+      "suffix": "suicid",
+      "domain": "mood",
+      "label": "r4suicid:w4 EURO-D: R Suicidality (0,1)",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        979,
+        983,
+        987
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mood_guilt",
+      "field": "r4guilt",
+      "suffix": "guilt",
+      "domain": "mood",
+      "label": "r4guilt:w4 EURO-D: R Guilt (0,1)",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        979,
+        983,
+        987
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mood_sleep",
+      "field": "r4sleep",
+      "suffix": "sleep",
+      "domain": "mood",
+      "label": "r4sleep:w4 EURO-D: R Sleep (0,1)",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        980,
+        983,
+        988
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mood_intrst",
+      "field": "r4intrst",
+      "suffix": "intrst",
+      "domain": "mood",
+      "label": "r4intrst:w4 EURO-D: R Interest (0,1)",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        980,
+        984,
+        988
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mood_irritb",
+      "field": "r4irritb",
+      "suffix": "irritb",
+      "domain": "mood",
+      "label": "r4irritb:w4 EURO-D: R Irritability (0,1)",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        980,
+        984,
+        989
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mood_appett",
+      "field": "r4appett",
+      "suffix": "appett",
+      "domain": "mood",
+      "label": "r4appett:w4 EURO-D: R Appetite (0,1)",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        980,
+        984,
+        989
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mood_fatig",
+      "field": "r4fatig",
+      "suffix": "fatig",
+      "domain": "mood",
+      "label": "r4fatig:w4 EURO-D: R Fatigue (0,1)",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        981,
+        984,
+        990
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mood_concnt",
+      "field": "r4concnt",
+      "suffix": "concnt",
+      "domain": "mood",
+      "label": "r4concnt:w4 EURO-D: R Concentration (0,1)",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        981,
+        985,
+        990
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mood_enjoym",
+      "field": "r4enjoym",
+      "suffix": "enjoym",
+      "domain": "mood",
+      "label": "r4enjoym:w4 EURO-D: R Enjoyment (0,1)",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        981,
+        985,
+        991
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "mood_tearfl",
+      "field": "r4tearfl",
+      "suffix": "tearfl",
+      "domain": "mood",
+      "label": "r4tearfl:w4 EURO-D: R Tearfulness (0,1)",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        981,
+        985,
+        991
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "self_rated_health",
+      "field": "r4shlt",
+      "suffix": "shlt",
+      "domain": "self_health",
+      "label": "r4shlt:w4 R self-report of health",
+      "codes": {
+        "1": 0.0,
+        "2": 0.25,
+        "3": 0.5,
+        "4": 0.75,
+        "5": 1.0
+      },
+      "scoring_rule": "ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        22,
+        119,
+        120
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "sensory_dsight",
+      "field": "r4dsight",
+      "suffix": "dsight",
+      "domain": "sensory",
+      "label": "r4dsight:w4 R self-rated distance eyesight",
+      "codes": {
+        "1": 0.0,
+        "2": 0.25,
+        "3": 0.5,
+        "4": 0.75,
+        "5": 1.0
+      },
+      "scoring_rule": "ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        261,
+        262
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "sensory_nsight",
+      "field": "r4nsight",
+      "suffix": "nsight",
+      "domain": "sensory",
+      "label": "r4nsight:w4 R self-rated near eyesight",
+      "codes": {
+        "1": 0.0,
+        "2": 0.25,
+        "3": 0.5,
+        "4": 0.75,
+        "5": 1.0
+      },
+      "scoring_rule": "ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        261,
+        262,
+        263
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "sensory_hearing",
+      "field": "r4hearing",
+      "suffix": "hearing",
+      "domain": "sensory",
+      "label": "r4hearing:w4 R self-rated hearing",
+      "codes": {
+        "1": 0.0,
+        "2": 0.25,
+        "3": 0.5,
+        "4": 0.75,
+        "5": 1.0
+      },
+      "scoring_rule": "ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        266,
+        267
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "SHARE",
+      "concept": "other_pain_s",
+      "field": "r4pain_s",
+      "suffix": "pain_s",
+      "domain": "other",
+      "label": "r4pain_s:w4 R bothered by joint pain",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        275,
+        276
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "hypertension",
+      "field": "r4hibpe",
+      "suffix": "hibpe",
+      "domain": "chronic",
+      "label": "r4hibpe:w4 R ever had high BP",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        131,
+        134,
+        136
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "diabetes",
+      "field": "r4diabe",
+      "suffix": "diabe",
+      "domain": "chronic",
+      "label": "r4diabe:w4 R ever had diabetes",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        131,
+        134,
+        137
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "cancer",
+      "field": "r4cancre",
+      "suffix": "cancre",
+      "domain": "chronic",
+      "label": "r4cancre:w4 R ever had cancer",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        131,
+        134,
+        137
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "lung_disease_nonequivalent",
+      "field": "r4lunge",
+      "suffix": "lunge",
+      "domain": "chronic",
+      "label": "r4lunge:w4 R ever had lung disease",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        132,
+        135,
+        137
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "heart_disease_nonequivalent",
+      "field": "r4hearte",
+      "suffix": "hearte",
+      "domain": "chronic",
+      "label": "r4hearte:w4 R ever had heart problem",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        132,
+        135,
+        138
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "stroke",
+      "field": "r4stroke",
+      "suffix": "stroke",
+      "domain": "chronic",
+      "label": "r4stroke:w4 R ever had stroke",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        132,
+        135,
+        138
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "chronic_psyche",
+      "field": "r4psyche",
+      "suffix": "psyche",
+      "domain": "chronic",
+      "label": "r4psyche:w4 R ever had psych problem",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        133,
+        135,
+        138
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "arthritis",
+      "field": "r4arthre",
+      "suffix": "arthre",
+      "domain": "chronic",
+      "label": "r4arthre:w4 R ever had arthritis",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        133,
+        136,
+        139
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "chronic_livere",
+      "field": "r4livere",
+      "suffix": "livere",
+      "domain": "chronic",
+      "label": "r4livere:w4 R ever had liver disease",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        133,
+        136,
+        139
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "mood_depresl",
+      "field": "r4depresl",
+      "suffix": "depresl",
+      "domain": "mood",
+      "label": "r4depresl:w4 R CESD depressed",
+      "codes": {
+        "1": 0.0,
+        "2": 0.3333333333333333,
+        "3": 0.6666666666666666,
+        "4": 1.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        1062,
+        1066,
+        1069
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "mood_mindtsl",
+      "field": "r4mindtsl",
+      "suffix": "mindtsl",
+      "domain": "mood",
+      "label": "r4mindtsl:w4 R CESD trouble keeping mind on task",
+      "codes": {
+        "1": 0.0,
+        "2": 0.3333333333333333,
+        "3": 0.6666666666666666,
+        "4": 1.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        1062,
+        1066,
+        1070
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "mood_sleeprl",
+      "field": "r4sleeprl",
+      "suffix": "sleeprl",
+      "domain": "mood",
+      "label": "r4sleeprl:w4 R CESD sleep was restless",
+      "codes": {
+        "1": 0.0,
+        "2": 0.3333333333333333,
+        "3": 0.6666666666666666,
+        "4": 1.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        1062,
+        1066,
+        1070
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "mood_whappyl",
+      "field": "r4whappyl",
+      "suffix": "whappyl",
+      "domain": "mood",
+      "label": "r4whappyl:w4 R CESD happy",
+      "codes": {
+        "1": 1.0,
+        "2": 0.6666666666666666,
+        "3": 0.3333333333333333,
+        "4": 0.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1; reverse positive affect",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        1062,
+        1066,
+        1071
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "mood_flonel",
+      "field": "r4flonel",
+      "suffix": "flonel",
+      "domain": "mood",
+      "label": "r4flonel:w4 R CESD lonely",
+      "codes": {
+        "1": 0.0,
+        "2": 0.3333333333333333,
+        "3": 0.6666666666666666,
+        "4": 1.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        1063,
+        1067,
+        1071
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "mood_botherl",
+      "field": "r4botherl",
+      "suffix": "botherl",
+      "domain": "mood",
+      "label": "r4botherl:w4 R CESD bothered by little things",
+      "codes": {
+        "1": 0.0,
+        "2": 0.3333333333333333,
+        "3": 0.6666666666666666,
+        "4": 1.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        1063,
+        1067,
+        1072
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "mood_effortl",
+      "field": "r4effortl",
+      "suffix": "effortl",
+      "domain": "mood",
+      "label": "r4effortl:w4 R CESD everything was an effort",
+      "codes": {
+        "1": 0.0,
+        "2": 0.3333333333333333,
+        "3": 0.6666666666666666,
+        "4": 1.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        1063,
+        1067,
+        1072
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "mood_enlifel",
+      "field": "r4enlifel",
+      "suffix": "enlifel",
+      "domain": "mood",
+      "label": "r4enlifel:w4 R CESD enjoyed life",
+      "codes": {
+        "1": 1.0,
+        "2": 0.6666666666666666,
+        "3": 0.3333333333333333,
+        "4": 0.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1; reverse positive affect",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        1064,
+        1067,
+        1073
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "mood_fearfll",
+      "field": "r4fearfll",
+      "suffix": "fearfll",
+      "domain": "mood",
+      "label": "r4fearfll:w4 R CESD fearful",
+      "codes": {
+        "1": 0.0,
+        "2": 0.3333333333333333,
+        "3": 0.6666666666666666,
+        "4": 1.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        1064,
+        1068,
+        1073
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "mood_goingl",
+      "field": "r4goingl",
+      "suffix": "goingl",
+      "domain": "mood",
+      "label": "r4goingl:w4 R CESD could not get going",
+      "codes": {
+        "1": 0.0,
+        "2": 0.3333333333333333,
+        "3": 0.6666666666666666,
+        "4": 1.0
+      },
+      "scoring_rule": "ordered frequency1..4 =>0,1/3,2/3,1",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        1064,
+        1068,
+        1073
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "self_rated_health",
+      "field": "r4shlt",
+      "suffix": "shlt",
+      "domain": "self_health",
+      "label": "r4shlt:w4 R self-rated health",
+      "codes": {
+        "1": 0.0,
+        "2": 0.25,
+        "3": 0.5,
+        "4": 0.75,
+        "5": 1.0
+      },
+      "scoring_rule": "ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": true,
+      "public_codebook_pdf_pages": [
+        16,
+        81,
+        82
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "sensory_dsighta",
+      "field": "r4dsighta",
+      "suffix": "dsighta",
+      "domain": "sensory",
+      "label": "r4dsighta:w4 R self-rated distance eyesight",
+      "codes": {
+        "1": 0.0,
+        "2": 0.25,
+        "3": 0.5,
+        "4": 0.75,
+        "5": 1.0
+      },
+      "scoring_rule": "ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        187,
+        189,
+        192
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "sensory_nsighta",
+      "field": "r4nsighta",
+      "suffix": "nsighta",
+      "domain": "sensory",
+      "label": "r4nsighta:w4 R self-rated near eyesight",
+      "codes": {
+        "1": 0.0,
+        "2": 0.25,
+        "3": 0.5,
+        "4": 0.75,
+        "5": 1.0
+      },
+      "scoring_rule": "ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        187,
+        190,
+        192
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "sensory_hearinga",
+      "field": "r4hearinga",
+      "suffix": "hearinga",
+      "domain": "sensory",
+      "label": "r4hearinga:w4 R self-rated hearing",
+      "codes": {
+        "1": 0.0,
+        "2": 0.25,
+        "3": 0.5,
+        "4": 0.75,
+        "5": 1.0
+      },
+      "scoring_rule": "ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        199,
+        200,
+        201
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "other_fall",
+      "field": "r4fall",
+      "suffix": "fall",
+      "domain": "other",
+      "label": "r4fall:w4 R fallen last 2 years",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        204,
+        205,
+        207
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "other_urinai",
+      "field": "r4urinai",
+      "suffix": "urinai",
+      "domain": "other",
+      "label": "r4urinai:w4 R any urinary incontinence 1yr",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        211,
+        212,
+        213
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "other_painfr",
+      "field": "r4painfr",
+      "suffix": "painfr",
+      "domain": "other",
+      "label": "r4painfr:w4 R problems with pain",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        216,
+        217,
+        218
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    },
+    {
+      "cohort": "KLoSA",
+      "concept": "other_hipe_k",
+      "field": "r4hipe_k",
+      "suffix": "hipe_k",
+      "domain": "other",
+      "label": "r4hipe_k:w4 R ever fractured hip due to fall",
+      "codes": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "scoring_rule": "binary0/1; other/missing codes =>unknown",
+      "requires_help": false,
+      "mobility_strength": false,
+      "common_equiv": false,
+      "public_codebook_pdf_pages": [
+        205,
+        206,
+        207
+      ],
+      "source_binding_status": "PUBLIC_MAPPING; numerical range/routing checks required at independent run",
+      "empirical_selection_status": "NOT_RUN"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+item,CHARLS,CHARLS_variables,CHARLS_scoring,ELSA,ELSA_variables,ELSA_scoring,MHAS,MHAS_variables,MHAS_scoring,SHARE,SHARE_variables,SHARE_scoring,KLoSA,KLoSA_variables,KLoSA_scoring
+IADL_moneya,present_nonequiv,r1moneya,binary0/1; other/missing codes =>unknown,present_nonequiv,r6moneya,binary0/1; other/missing codes =>unknown,present_nonequiv,r3moneya,binary0/1; other/missing codes =>unknown,present_nonequiv,r4moneya,binary0/1; other/missing codes =>unknown,absent,,
+IADL_medsa,present_nonequiv,r1medsa,binary0/1; other/missing codes =>unknown,present_nonequiv,r6medsa,binary0/1; other/missing codes =>unknown,present_nonequiv,r3medsa,binary0/1; other/missing codes =>unknown,present_nonequiv,r4medsa,binary0/1; other/missing codes =>unknown,absent,,
+IADL_shopa,present_nonequiv,r1shopa,binary0/1; other/missing codes =>unknown,present_nonequiv,r6shopa,binary0/1; other/missing codes =>unknown,present_nonequiv,r3shopa,binary0/1; other/missing codes =>unknown,present_nonequiv,r4shopa,binary0/1; other/missing codes =>unknown,absent,,
+IADL_mealsa,present_nonequiv,r1mealsa,binary0/1; other/missing codes =>unknown,present_nonequiv,r6mealsa,binary0/1; other/missing codes =>unknown,present_nonequiv,r3mealsa,binary0/1; other/missing codes =>unknown,present_nonequiv,r4mealsa,binary0/1; other/missing codes =>unknown,absent,,
+IADL_housewka,present_nonequiv,r1housewka,binary0/1; other/missing codes =>unknown,present_nonequiv,r6housewka,binary0/1; other/missing codes =>unknown,absent,,,present_nonequiv,r4housewka,binary0/1; other/missing codes =>unknown,absent,,
+mobility_joga,present_nonequiv,r1joga,binary0/1; other/missing codes =>unknown,absent,,,present_nonequiv,r3joga,binary0/1; other/missing codes =>unknown,absent,,,absent,,
+mobility_walk1kma,present_nonequiv,r1walk1kma,binary0/1; other/missing codes =>unknown,absent,,,absent,,,absent,,,absent,,
+mobility_walk100a,present_nonequiv,r1walk100a,binary0/1; other/missing codes =>unknown,present_nonequiv,r6walk100a,binary0/1; other/missing codes =>unknown,absent,,,present_nonequiv,r4walk100a,binary0/1; other/missing codes =>unknown,absent,,
+mobility_chaira,present_nonequiv,r1chaira,binary0/1; other/missing codes =>unknown,present_nonequiv,r6chaira,binary0/1; other/missing codes =>unknown,present_nonequiv,r3chaira,binary0/1; other/missing codes =>unknown,present_nonequiv,r4chaira,binary0/1; other/missing codes =>unknown,absent,,
+mobility_climsa,present_nonequiv,r1climsa,binary0/1; other/missing codes =>unknown,present_nonequiv,r6climsa,binary0/1; other/missing codes =>unknown,present_nonequiv,r3climsa,binary0/1; other/missing codes =>unknown,present_nonequiv,r4climsa,binary0/1; other/missing codes =>unknown,absent,,
+mobility_stoopa,present_nonequiv,r1stoopa,binary0/1; other/missing codes =>unknown,present_nonequiv,r6stoopa,binary0/1; other/missing codes =>unknown,present_nonequiv,r3stoopa,binary0/1; other/missing codes =>unknown,present_nonequiv,r4stoopa,binary0/1; other/missing codes =>unknown,absent,,
+mobility_lifta,present_nonequiv,r1lifta,binary0/1; other/missing codes =>unknown,present_nonequiv,r6lifta,binary0/1; other/missing codes =>unknown,present_nonequiv,r3lifta,binary0/1; other/missing codes =>unknown,present_nonequiv,r4lifta,binary0/1; other/missing codes =>unknown,absent,,
+mobility_dimea,present_nonequiv,r1dimea,binary0/1; other/missing codes =>unknown,present_nonequiv,r6dimea,binary0/1; other/missing codes =>unknown,present_nonequiv,r3dimea,binary0/1; other/missing codes =>unknown,present_nonequiv,r4dimea,binary0/1; other/missing codes =>unknown,absent,,
+mobility_armsa,present_nonequiv,r1armsa,binary0/1; other/missing codes =>unknown,present_nonequiv,r6armsa,binary0/1; other/missing codes =>unknown,present_nonequiv,r3armsa,binary0/1; other/missing codes =>unknown,present_nonequiv,r4armsa,binary0/1; other/missing codes =>unknown,absent,,
+hypertension,common_equiv,r1hibpe,binary0/1; other/missing codes =>unknown,common_equiv,r6hibpe,binary0/1; other/missing codes =>unknown,common_equiv,r3hibpe,binary0/1; other/missing codes =>unknown,common_equiv,r4hibpe,binary0/1; other/missing codes =>unknown,common_equiv,r4hibpe,binary0/1; other/missing codes =>unknown
+diabetes,common_equiv,r1diabe,binary0/1; other/missing codes =>unknown,common_equiv,r6diabe,binary0/1; other/missing codes =>unknown,common_equiv,r3diabe,binary0/1; other/missing codes =>unknown,common_equiv,r4diabe,binary0/1; other/missing codes =>unknown,common_equiv,r4diabe,binary0/1; other/missing codes =>unknown
+cancer,common_equiv,r1cancre,binary0/1; other/missing codes =>unknown,common_equiv,r6cancre,binary0/1; other/missing codes =>unknown,common_equiv,r3cancre,binary0/1; other/missing codes =>unknown,common_equiv,r4cancre,binary0/1; other/missing codes =>unknown,common_equiv,r4cancre,binary0/1; other/missing codes =>unknown
+lung_disease_nonequivalent,present_nonequiv,r1lunge,binary0/1; other/missing codes =>unknown,present_nonequiv,r6lunge,binary0/1; other/missing codes =>unknown,present_nonequiv,r3respe,binary0/1; other/missing codes =>unknown,present_nonequiv,r4lunge,binary0/1; other/missing codes =>unknown,present_nonequiv,r4lunge,binary0/1; other/missing codes =>unknown
+heart_disease_nonequivalent,present_nonequiv,r1hearte,binary0/1; other/missing codes =>unknown,present_nonequiv,r6hearte,binary0/1; other/missing codes =>unknown,present_nonequiv,r3hrtatte,binary0/1; other/missing codes =>unknown,present_nonequiv,r4hearte,binary0/1; other/missing codes =>unknown,present_nonequiv,r4hearte,binary0/1; other/missing codes =>unknown
+stroke,common_equiv,r1stroke,binary0/1; other/missing codes =>unknown,common_equiv,r6stroke,binary0/1; other/missing codes =>unknown,common_equiv,r3stroke,binary0/1; other/missing codes =>unknown,common_equiv,r4stroke,binary0/1; other/missing codes =>unknown,common_equiv,r4stroke,binary0/1; other/missing codes =>unknown
+chronic_psyche,present_nonequiv,r1psyche,binary0/1; other/missing codes =>unknown,present_nonequiv,r6psyche,binary0/1; other/missing codes =>unknown,absent,,,present_nonequiv,r4psyche,binary0/1; other/missing codes =>unknown,present_nonequiv,r4psyche,binary0/1; other/missing codes =>unknown
+arthritis,common_equiv,r1arthre,binary0/1; other/missing codes =>unknown,common_equiv,r6arthre,binary0/1; other/missing codes =>unknown,common_equiv,r3arthre,binary0/1; other/missing codes =>unknown,common_equiv,r4arthre,binary0/1; other/missing codes =>unknown,common_equiv,r4arthre,binary0/1; other/missing codes =>unknown
+chronic_livere,present_nonequiv,r1livere,binary0/1; other/missing codes =>unknown,absent,,,absent,,,absent,,,present_nonequiv,r4livere,binary0/1; other/missing codes =>unknown
+chronic_memrye,present_nonequiv,r1memrye,binary0/1; other/missing codes =>unknown,present_nonequiv,r6memrye,binary0/1; other/missing codes =>unknown,absent,,,absent,,,absent,,
+chronic_kidneye,present_nonequiv,r1kidneye,binary0/1; other/missing codes =>unknown,absent,,,absent,,,absent,,,absent,,
+chronic_digeste,present_nonequiv,r1digeste,binary0/1; other/missing codes =>unknown,absent,,,absent,,,absent,,,absent,,
+chronic_asthmae,present_nonequiv,r1asthmae,binary0/1; other/missing codes =>unknown,absent,,,absent,,,absent,,,absent,,
+mood_depresl,present_nonequiv,r1depresl,"ordered frequency1..4 =>0,1/3,2/3,1",absent,,,absent,,,absent,,,present_nonequiv,r4depresl,"ordered frequency1..4 =>0,1/3,2/3,1"
+mood_effortl,present_nonequiv,r1effortl,"ordered frequency1..4 =>0,1/3,2/3,1",absent,,,absent,,,absent,,,present_nonequiv,r4effortl,"ordered frequency1..4 =>0,1/3,2/3,1"
+mood_sleeprl,present_nonequiv,r1sleeprl,"ordered frequency1..4 =>0,1/3,2/3,1",absent,,,absent,,,absent,,,present_nonequiv,r4sleeprl,"ordered frequency1..4 =>0,1/3,2/3,1"
+mood_whappyl,present_nonequiv,r1whappyl,"ordered frequency1..4 =>0,1/3,2/3,1; reverse positive affect",absent,,,absent,,,absent,,,present_nonequiv,r4whappyl,"ordered frequency1..4 =>0,1/3,2/3,1; reverse positive affect"
+mood_flonel,present_nonequiv,r1flonel,"ordered frequency1..4 =>0,1/3,2/3,1",absent,,,absent,,,absent,,,present_nonequiv,r4flonel,"ordered frequency1..4 =>0,1/3,2/3,1"
+mood_botherl,present_nonequiv,r1botherl,"ordered frequency1..4 =>0,1/3,2/3,1",absent,,,absent,,,absent,,,present_nonequiv,r4botherl,"ordered frequency1..4 =>0,1/3,2/3,1"
+mood_goingl,present_nonequiv,r1goingl,"ordered frequency1..4 =>0,1/3,2/3,1",absent,,,absent,,,absent,,,present_nonequiv,r4goingl,"ordered frequency1..4 =>0,1/3,2/3,1"
+mood_mindtsl,present_nonequiv,r1mindtsl,"ordered frequency1..4 =>0,1/3,2/3,1",absent,,,absent,,,absent,,,present_nonequiv,r4mindtsl,"ordered frequency1..4 =>0,1/3,2/3,1"
+mood_fhopel,present_nonequiv,r1fhopel,"ordered frequency1..4 =>0,1/3,2/3,1; reverse positive affect",absent,,,absent,,,absent,,,absent,,
+mood_fearll,present_nonequiv,r1fearll,"ordered frequency1..4 =>0,1/3,2/3,1",absent,,,absent,,,absent,,,absent,,
+self_rated_health,common_equiv,r1shlt,"ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",common_equiv,r6shlt,"ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",common_equiv,r3shlt,"ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",common_equiv,r4shlt,"ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",common_equiv,r4shlt,"ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)"
+self_memory_slfmem,present_nonequiv,r1slfmem,"ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",absent,,,absent,,,absent,,,absent,,
+IADL_mapa,absent,,,present_nonequiv,r6mapa,binary0/1; other/missing codes =>unknown,absent,,,present_nonequiv,r4mapa,binary0/1; other/missing codes =>unknown,absent,,
+IADL_phonea,absent,,,present_nonequiv,r6phonea,binary0/1; other/missing codes =>unknown,absent,,,present_nonequiv,r4phonea,binary0/1; other/missing codes =>unknown,absent,,
+mobility_sita,absent,,,present_nonequiv,r6sita,binary0/1; other/missing codes =>unknown,present_nonequiv,r3sita,binary0/1; other/missing codes =>unknown,present_nonequiv,r4sita,binary0/1; other/missing codes =>unknown,absent,,
+mobility_clim1a,absent,,,present_nonequiv,r6clim1a,binary0/1; other/missing codes =>unknown,present_nonequiv,r3clim1a,binary0/1; other/missing codes =>unknown,present_nonequiv,r4clim1a,binary0/1; other/missing codes =>unknown,absent,,
+mobility_pusha,absent,,,present_nonequiv,r6pusha,binary0/1; other/missing codes =>unknown,present_nonequiv,r3pusha,binary0/1; other/missing codes =>unknown,present_nonequiv,r4pusha,binary0/1; other/missing codes =>unknown,absent,,
+chronic_parkine,absent,,,present_nonequiv,r6parkine,binary0/1; other/missing codes =>unknown,absent,,,present_nonequiv,r4parkine,binary0/1; other/missing codes =>unknown,absent,,
+chronic_osteoe,absent,,,present_nonequiv,r6osteoe,binary0/1; other/missing codes =>unknown,absent,,,present_nonequiv,r4osteoe,binary0/1; other/missing codes =>unknown,absent,,
+mood_depres,absent,,,present_nonequiv,r6depres,binary0/1; other/missing codes =>unknown,present_nonequiv,r3depres,binary0/1; other/missing codes =>unknown,absent,,,absent,,
+mood_effort,absent,,,present_nonequiv,r6effort,binary0/1; other/missing codes =>unknown,present_nonequiv,r3effort,binary0/1; other/missing codes =>unknown,absent,,,absent,,
+mood_sleepr,absent,,,present_nonequiv,r6sleepr,binary0/1; other/missing codes =>unknown,present_nonequiv,r3sleepr,binary0/1; other/missing codes =>unknown,absent,,,absent,,
+mood_whappy,absent,,,present_nonequiv,r6whappy,binary0/1 reversed for positive affect,present_nonequiv,r3whappy,binary0/1 reversed for positive affect,absent,,,absent,,
+mood_flone,absent,,,present_nonequiv,r6flone,binary0/1; other/missing codes =>unknown,present_nonequiv,r3flone,binary0/1; other/missing codes =>unknown,absent,,,absent,,
+mood_fsad,absent,,,present_nonequiv,r6fsad,binary0/1; other/missing codes =>unknown,present_nonequiv,r3fsad,binary0/1; other/missing codes =>unknown,absent,,,absent,,
+mood_going,absent,,,present_nonequiv,r6going,binary0/1; other/missing codes =>unknown,absent,,,absent,,,absent,,
+mood_enlife,absent,,,present_nonequiv,r6enlife,binary0/1 reversed for positive affect,present_nonequiv,r3enlife,binary0/1 reversed for positive affect,absent,,,absent,,
+sensory_dsight,absent,,,present_nonequiv,r6dsight,"ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",absent,,,present_nonequiv,r4dsight,"ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",absent,,
+sensory_nsight,absent,,,present_nonequiv,r6nsight,"ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",absent,,,present_nonequiv,r4nsight,"ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",absent,,
+sensory_hearing,absent,,,present_nonequiv,r6hearing,"ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",present_nonequiv,r3hearing,"ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",present_nonequiv,r4hearing,"ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",absent,,
+other_fall,absent,,,present_nonequiv,r6fall,binary0/1; other/missing codes =>unknown,present_nonequiv,r3fall,binary0/1; other/missing codes =>unknown,absent,,,present_nonequiv,r4fall,binary0/1; other/missing codes =>unknown
+other_urinai,absent,,,present_nonequiv,r6urinai,binary0/1; other/missing codes =>unknown,absent,,,absent,,,present_nonequiv,r4urinai,binary0/1; other/missing codes =>unknown
+other_painfr,absent,,,present_nonequiv,r6painfr,binary0/1; other/missing codes =>unknown,present_nonequiv,r3painfr,binary0/1; other/missing codes =>unknown,absent,,,present_nonequiv,r4painfr,binary0/1; other/missing codes =>unknown
+mobility_walksa,absent,,,absent,,,present_nonequiv,r3walksa,binary0/1; other/missing codes =>unknown,absent,,,absent,,
+mobility_walk1a,absent,,,absent,,,present_nonequiv,r3walk1a,binary0/1; other/missing codes =>unknown,absent,,,absent,,
+mood_ftired,absent,,,absent,,,present_nonequiv,r3ftired,binary0/1; other/missing codes =>unknown,absent,,,absent,,
+mood_energ,absent,,,absent,,,present_nonequiv,r3energ,binary0/1 reversed for positive affect,absent,,,absent,,
+sensory_sight,absent,,,absent,,,present_nonequiv,r3sight,"ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)",absent,,,absent,,
+mood_depress,absent,,,absent,,,absent,,,present_nonequiv,r4depress,binary0/1; other/missing codes =>unknown,absent,,
+mood_pessim,absent,,,absent,,,absent,,,present_nonequiv,r4pessim,binary0/1; other/missing codes =>unknown,absent,,
+mood_suicid,absent,,,absent,,,absent,,,present_nonequiv,r4suicid,binary0/1; other/missing codes =>unknown,absent,,
+mood_guilt,absent,,,absent,,,absent,,,present_nonequiv,r4guilt,binary0/1; other/missing codes =>unknown,absent,,
+mood_sleep,absent,,,absent,,,absent,,,present_nonequiv,r4sleep,binary0/1; other/missing codes =>unknown,absent,,
+mood_intrst,absent,,,absent,,,absent,,,present_nonequiv,r4intrst,binary0/1; other/missing codes =>unknown,absent,,
+mood_irritb,absent,,,absent,,,absent,,,present_nonequiv,r4irritb,binary0/1; other/missing codes =>unknown,absent,,
+mood_appett,absent,,,absent,,,absent,,,present_nonequiv,r4appett,binary0/1; other/missing codes =>unknown,absent,,
+mood_fatig,absent,,,absent,,,absent,,,present_nonequiv,r4fatig,binary0/1; other/missing codes =>unknown,absent,,
+mood_concnt,absent,,,absent,,,absent,,,present_nonequiv,r4concnt,binary0/1; other/missing codes =>unknown,absent,,
+mood_enjoym,absent,,,absent,,,absent,,,present_nonequiv,r4enjoym,binary0/1; other/missing codes =>unknown,absent,,
+mood_tearfl,absent,,,absent,,,absent,,,present_nonequiv,r4tearfl,binary0/1; other/missing codes =>unknown,absent,,
+other_pain_s,absent,,,absent,,,absent,,,present_nonequiv,r4pain_s,binary0/1; other/missing codes =>unknown,absent,,
+mood_enlifel,absent,,,absent,,,absent,,,absent,,,present_nonequiv,r4enlifel,"ordered frequency1..4 =>0,1/3,2/3,1; reverse positive affect"
+mood_fearfll,absent,,,absent,,,absent,,,absent,,,present_nonequiv,r4fearfll,"ordered frequency1..4 =>0,1/3,2/3,1"
+sensory_dsighta,absent,,,absent,,,absent,,,absent,,,present_nonequiv,r4dsighta,"ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)"
+sensory_nsighta,absent,,,absent,,,absent,,,absent,,,present_nonequiv,r4nsighta,"ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)"
+sensory_hearinga,absent,,,absent,,,absent,,,absent,,,present_nonequiv,r4hearinga,"ordered1..5 =>0,.25,.5,.75,1 (cohort anchor differences retained)"
+other_hipe_k,absent,,,absent,,,absent,,,absent,,,present_nonequiv,r4hipe_k,binary0/1; other/missing codes =>unknown

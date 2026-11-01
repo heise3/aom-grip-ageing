@@ -1,0 +1,41 @@
+analysis,classification,date_added,reason,location
+EWGSOP2 weighted prevalence; age/sex/country strata,prespecified,2026-10-27,Describe low grip among observable-label candidates,Figure2; supplementary five-cohort prevalence
+Primary composite discrete-time association and REML/modified-HK pool,prespecified,2026-10-27,First ADL difficulty or death in baseline ADL0 candidates,Figure3a; Table1
+Mortality-only models and pool,prespecified,2026-10-27,Separate death outcome; KLoSA permitted only here,Figure3c; FigureS6
+Competing ADL/death multistate transitions and CIF,prespecified,2026-10-27,Distinct observed first-event pathways,Supplementary competing transitions
+Continuous grip per5kg,prespecified,2026-10-27,Assess continuous exposure without choosing cutpoints,Supplementary sensitivity
+SDOC threshold sensitivity,prespecified,2026-10-27,Alternative fixed low-grip definition,Figure4; supplementary sensitivity
+Measured-BMI cohorts sensitivity,prespecified,2026-10-27,Assess BMI measurement source,Supplementary sensitivity
+Early/undatable death exclusion,prespecified,2026-10-27,Original date-based early-death sensitivity,Historic supplement only; omit from current main figures
+Common help-type ADL sensitivity,prespecified,2026-10-27,Include KLoSA under an assistance construct; Not executable with required equivalent items; not a null result.; Not executable with required equivalent items; not a null result.,Supplementary availability
+Full frailty phenotype / any-vulnerability bounds,prespecified,2026-10-27,Original phenotype/composite description,Supplementary limitations / availability
+Pointwise CIF logit-delta95% CIs,post hoc,2026-10-27,Complete uncertainty reporting,FigureS4
+Model diagnostics including grip×interval Wald test,post hoc,2026-10-27,Check model assumptions without replacing the primary model,Supplementary diagnostics
+Flow and missingness/censoring accounting,post hoc,2026-10-27,Complete participant flow,Figure1; supplementary flow
+Stabilised IPCW sensitivity;1/99 truncation;500 bootstrap,post hoc,2026-10-27,Assess observed-baseline predictors of early censoring,Figure3c; FigureS6
+Pooled age5×sex direct standardisation;WHO sensitivity,post hoc,2026-10-27,Compare national distributions on a fixed age-sex structure,TableS4
+65–84 common-support standardisation,post hoc,2026-10-27,Retain comparison without merging/extrapolating empty older strata,Figure2a; WHO supplement
+Nine-year standardised composite risk and RD,post hoc,2026-10-27,Present absolute risk,Figure3b; Figure4b
+Grip×label-eligibility interaction,post hoc,2026-10-27,"Explore modification by observable eligibility, not BMI interaction",FigureS5
+FNIH grip/BMI sensitivity,post hoc,2026-10-27,Alternative body-size-relative definition; corrected cutpoints before execution,Figure4; supplementary sensitivity
+Included versus excluded baseline comparison,post hoc,2026-10-27,Assess complete-case selection descriptively,TableS7
+Measured height/weight QCv2 and affected-result reruns,post hoc,2026-10-27,Address implausible source anthropometry without guessing correct values,Figure1; all current tables; QC supplement
+Explicit source noncompletion priority,post hoc,2026-10-27,Resolve CHARLS route/value coexistence before new QC outcome runs,Supplementary anthropometry
+CHARLS height minimum1.20m sensitivity,post hoc,2026-10-27,Assess approved alternative anthropometric lower bound,Supplementary sensitivity
+Crude cloglog and missing heterogeneity uncertainty,post hoc,2026-10-27,STROBE16a / pooled heterogeneity report supplement,Supplementary crude/adjusted and heterogeneity
+Nominal-wave reverse-KM follow-up and observed person-time,post hoc,2026-10-27,STROBE14c with approved wave-endpoint convention,Supplementary follow-up
+One-year mortality — Not estimated; date inconsistencies in source data,post hoc,2026-10-28,Not estimated; date inconsistencies in source data,Historic audit; supplementary factual status only
+Provider-source suppression audit and QCv2-only counts,post hoc,2026-10-31,Separate provider obligations from removed project thresholds,Table1; Figure1/3a
+"FI main/noMob/common item screens, FI adjustment/tertiles/validity",post hoc,2026-10-31,"Assess accumulated-deficit information without lowering the item standard; Main FI items: CHARLS20, ELSA34, MHAS24, SHARE36, KLoSA10. ELSA lacks prognosis mortality; other non-SHARE prognosis cohorts <30. noMob <30 and common0; no thresholds relaxed.; Main FI items: CHARLS20, ELSA34, MHAS24, SHARE36, KLoSA10. ELSA lacks prognosis mortality; other non-SHARE prognosis cohorts <30. noMob <30 and common0; no thresholds relaxed.",Figure3c; TableS5/6
+Definition comparison: all-candidate weighted flags and risk/RD,post hoc,2026-10-31,Compare inherited definitions with new reporting metrics,Figure4; FigureS3
+Nine-year cumulative/dynamic IPCW AUC increment; paired500 bootstrap,post hoc,2026-10-31,Assess apparent discrimination on a fixed prediction model,Figure4c
+First-follow-up event-free landmark,post hoc,2026-10-31,Replace early/undatable death sensitivity without death dates,Figure3c
+ELSA G.3 wave status/ADL source audit,post hoc,2026-10-31,Check complete post-W6 mortality coverage,Supplementary source audit
+Recent-wave metadata feasibility,post hoc,2026-10-31,Check later-wave grip and anthropometry presence,Supplementary availability
+HRS script handoff,post hoc,2026-10-31,Researcher-only additional cohort,Separate unexecuted handoff
+SHARE same-FI-complete-case reference and paired logHR-change bootstrap,post hoc,2026-10-31,Compare FI and no-FI on identical people; do not interpret sample differences as adjustment,R1 CSV; potential Figure3c update after receipt
+Three-cohort prognosis-domain weighted flags + inherited risk/RD/AUC,post hoc,2026-10-31,Align definition-comparison domains without replacing model settings,R2 CSV; Figure4a–c
+Extract SHARE FI distribution/age/sex/mortality validity,post hoc,2026-10-31,Supply existing supplementary validity evidence,R3 CSV; TableS6
+Consolidated analysis registry,post hoc,2026-10-31,Preserve original versus post hoc status,Supplementary Table S1
+Figure4 matched-domain layout; five-cohort supplementary figure,post hoc,2026-10-31,Separate prognosis-domain comparison from all-candidate description,Figure4; Supplementary five-cohort flags
+MHAS Figure4a weighted subset versus full prognosis denominator,post hoc,2026-10-31,8/270 have no positive valid weight; author permits labelled262-person descriptive subset without changing270-person prognosis,"Figure4a, Figure4 footnote/caption; R2"

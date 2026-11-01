@@ -1,0 +1,81 @@
+cohort,country,standard,age_scope,n,post_hoc,status,proportion,ci_low,ci_high,se,design_df,design_note,reference_fixed
+CHARLS,China,pooled_five_cohorts,65plus,SUPPRESSED_CROSS_VERSION,"post hoc, added after reviewing v1 and v1.1 results; v1.2 measurement QC",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+CHARLS,China,WHO_2000_2025,65plus,SUPPRESSED_CROSS_VERSION,"post hoc, added after reviewing v1 and v1.1 results; v1.2 measurement QC",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+CHARLS,China,pooled_five_cohorts,65-84,SUPPRESSED_CROSS_VERSION,"post hoc, added after reviewing v1 and v1.1 results; v1.2 measurement QC",OK,0.0985117254065265,0.06626058822981869,0.14403899138053944,0.019507677564915202,436.0,community_cluster_approximation,True
+CHARLS,China,WHO_2000_2025,65-84,SUPPRESSED_CROSS_VERSION,"post hoc, added after reviewing v1 and v1.1 results; v1.2 measurement QC",OK,0.09894210599170584,0.0648016444675617,0.14821861790023455,0.02088369143921469,436.0,community_cluster_approximation,True
+ELSA,England,pooled_five_cohorts,65plus,SUPPRESSED_CROSS_VERSION,"post hoc, added after reviewing v1 and v1.1 results; v1.2 measurement QC",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+ELSA,England,WHO_2000_2025,65plus,SUPPRESSED_CROSS_VERSION,"post hoc, added after reviewing v1 and v1.1 results; v1.2 measurement QC",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+ELSA,England,pooled_five_cohorts,65-84,SUPPRESSED_CROSS_VERSION,"post hoc, added after reviewing v1 and v1.1 results; v1.2 measurement QC",OK,0.11839388841058257,0.1040231237880081,0.13445204946386075,0.007750817378790249,5876.0,region_household_cluster,True
+ELSA,England,WHO_2000_2025,65-84,SUPPRESSED_CROSS_VERSION,"post hoc, added after reviewing v1 and v1.1 results; v1.2 measurement QC",OK,0.11648860766033245,0.10225828205351649,0.13240716126503935,0.007679148206239144,5876.0,region_household_cluster,True
+MHAS,Mexico (4-state subsample),pooled_five_cohorts,65plus,343,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+MHAS,Mexico (4-state subsample),WHO_2000_2025,65plus,343,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+MHAS,Mexico (4-state subsample),pooled_five_cohorts,65-84,SUPPRESSED_COMPLEMENT,"post hoc, added after reviewing v1 results",OK,0.2675519341052771,0.20420580320887943,0.34210104508444666,0.0352768185246023,1361.0,household_cluster_approximation_four_states,True
+MHAS,Mexico (4-state subsample),WHO_2000_2025,65-84,SUPPRESSED_COMPLEMENT,"post hoc, added after reviewing v1 results",OK,0.2758366721424328,0.2107310800981703,0.3520838826018306,0.03618004588330664,1361.0,household_cluster_approximation_four_states,True
+SHARE,Austria,pooled_five_cohorts,65plus,746,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Austria,WHO_2000_2025,65plus,746,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Austria,pooled_five_cohorts,65-84,719,"post hoc, added after reviewing v1 results",OK,0.06798649801923112,0.05142254847928015,0.0893831802843261,0.00959616748973301,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Austria,WHO_2000_2025,65-84,719,"post hoc, added after reviewing v1 results",OK,0.06767373200441287,0.05072090528808156,0.08975706642417594,0.009862033736799374,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Belgium,pooled_five_cohorts,65plus,752,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Belgium,WHO_2000_2025,65plus,752,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Belgium,pooled_five_cohorts,65-84,702,"post hoc, added after reviewing v1 results",OK,0.05241141347493533,0.03780283065120906,0.07224150672260495,0.008666422391363804,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Belgium,WHO_2000_2025,65-84,702,"post hoc, added after reviewing v1 results",OK,0.050755606254501165,0.03683973664464221,0.06954849553439692,0.00823423118252184,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Czech Republic,pooled_five_cohorts,65plus,1128,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Czech Republic,WHO_2000_2025,65plus,1128,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Czech Republic,pooled_five_cohorts,65-84,1090,"post hoc, added after reviewing v1 results",OK,0.05926863344348826,0.04245597902871531,0.08216781692005852,0.009993545057251094,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Czech Republic,WHO_2000_2025,65-84,1090,"post hoc, added after reviewing v1 results",OK,0.060157272035826034,0.04318159168256605,0.0832260068123109,0.01007964756382997,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Denmark,pooled_five_cohorts,65plus,244,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Denmark,WHO_2000_2025,65plus,244,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Denmark,pooled_five_cohorts,65-84,228,"post hoc, added after reviewing v1 results",SUPPRESSED_SMALL_OUTCOME_CELL,,,,,,,
+SHARE,Denmark,WHO_2000_2025,65-84,228,"post hoc, added after reviewing v1 results",SUPPRESSED_SMALL_OUTCOME_CELL,,,,,,,
+SHARE,Estonia,pooled_five_cohorts,65plus,1423,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Estonia,WHO_2000_2025,65plus,1423,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Estonia,pooled_five_cohorts,65-84,1373,"post hoc, added after reviewing v1 results",OK,0.09485783196841334,0.07905606565652397,0.11342904757445327,0.008740058369670898,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Estonia,WHO_2000_2025,65-84,1373,"post hoc, added after reviewing v1 results",OK,0.09366224706857282,0.07741634708697458,0.11290016642809138,0.009019560406442894,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,France,pooled_five_cohorts,65plus,786,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,France,WHO_2000_2025,65plus,786,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,France,pooled_five_cohorts,65-84,737,"post hoc, added after reviewing v1 results",OK,0.07183897298684377,0.05520921084749883,0.09298485587821997,0.00956078977538421,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,France,WHO_2000_2025,65-84,737,"post hoc, added after reviewing v1 results",OK,0.07069510741994361,0.054526704422635054,0.09119537543799758,0.009282026840153017,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Germany,pooled_five_cohorts,65plus,334,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Germany,WHO_2000_2025,65plus,334,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Germany,pooled_five_cohorts,65-84,319,"post hoc, added after reviewing v1 results",OK,0.0336443403823886,0.01843985715698655,0.06061144980463238,0.010233194590463643,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Germany,WHO_2000_2025,65-84,319,"post hoc, added after reviewing v1 results",OK,0.03197658614864942,0.017805219577929705,0.05677511306685916,0.009475897185944765,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Hungary,pooled_five_cohorts,65plus,535,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Hungary,WHO_2000_2025,65plus,535,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Hungary,pooled_five_cohorts,65-84,521,"post hoc, added after reviewing v1 results",OK,0.11415957792228598,0.08406988646839295,0.15321723122124406,0.01750799629627527,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Hungary,WHO_2000_2025,65-84,521,"post hoc, added after reviewing v1 results",OK,0.11150897172510624,0.0819121562802582,0.15005199259125354,0.01724738534417616,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Italy,pooled_five_cohorts,65plus,595,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Italy,WHO_2000_2025,65plus,595,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Italy,pooled_five_cohorts,65-84,579,"post hoc, added after reviewing v1 results",OK,0.12900405772704826,0.10182670283202716,0.16212568170432068,0.015322582984034133,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Italy,WHO_2000_2025,65-84,579,"post hoc, added after reviewing v1 results",OK,0.1267577804201697,0.09936542710694928,0.1603569571356637,0.015493476226647674,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Netherlands,pooled_five_cohorts,65plus,354,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Netherlands,WHO_2000_2025,65plus,354,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Netherlands,pooled_five_cohorts,65-84,335,"post hoc, added after reviewing v1 results",OK,0.03639339490950919,0.0217422894003537,0.06030854996472674,0.009486259307244652,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Netherlands,WHO_2000_2025,65-84,335,"post hoc, added after reviewing v1 results",OK,0.035647168160619976,0.02128872085112688,0.05910501466221074,0.009299884917284474,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Poland,pooled_five_cohorts,65plus,340,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Poland,WHO_2000_2025,65plus,340,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Poland,pooled_five_cohorts,65-84,327,"post hoc, added after reviewing v1 results",OK,0.0626040466071197,0.04149479985895158,0.09340551813571321,0.012979672605875504,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Poland,WHO_2000_2025,65-84,327,"post hoc, added after reviewing v1 results",OK,0.05990864720533103,0.03960576907751332,0.08964776455883552,0.012504875580774896,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Portugal,pooled_five_cohorts,65plus,296,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Portugal,WHO_2000_2025,65plus,296,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Portugal,pooled_five_cohorts,65-84,SUPPRESSED_COMPLEMENT,"post hoc, added after reviewing v1 results",OK,0.15586101305174985,0.0930397058712585,0.24943410930155174,0.039449352516796196,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Portugal,WHO_2000_2025,65-84,SUPPRESSED_COMPLEMENT,"post hoc, added after reviewing v1 results",OK,0.15698036953490838,0.10040007198380924,0.23704451318420022,0.034562192703386035,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Slovenia,pooled_five_cohorts,65plus,449,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Slovenia,WHO_2000_2025,65plus,449,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Slovenia,pooled_five_cohorts,65-84,430,"post hoc, added after reviewing v1 results",OK,0.120333007564781,0.08943834203490196,0.1600241005679486,0.01788763905534935,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Slovenia,WHO_2000_2025,65-84,430,"post hoc, added after reviewing v1 results",OK,0.1141215280121233,0.08614994624302547,0.14968744707317025,0.016105639410964965,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Spain,pooled_five_cohorts,65plus,723,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Spain,WHO_2000_2025,65plus,723,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Spain,pooled_five_cohorts,65-84,664,"post hoc, added after reviewing v1 results",OK,0.21300081336219925,0.181654472295681,0.24811627813677448,0.016954318684858603,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Spain,WHO_2000_2025,65-84,664,"post hoc, added after reviewing v1 results",OK,0.2065836243296622,0.1766136876399697,0.24015589368317924,0.016207232904449132,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Sweden,pooled_five_cohorts,65plus,365,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Sweden,WHO_2000_2025,65plus,365,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Sweden,pooled_five_cohorts,65-84,341,"post hoc, added after reviewing v1 results",OK,0.0635894207831588,0.04189701688739145,0.09539491600241741,0.013370692644689009,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Sweden,WHO_2000_2025,65-84,341,"post hoc, added after reviewing v1 results",OK,0.06191195414077934,0.04015626605481267,0.09429640250355856,0.013507316572431914,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Switzerland,pooled_five_cohorts,65plus,462,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Switzerland,WHO_2000_2025,65plus,462,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+SHARE,Switzerland,pooled_five_cohorts,65-84,444,"post hoc, added after reviewing v1 results",OK,0.03538487745071655,0.02196634712532302,0.056526601454100815,0.008542925258671629,15538.0,PSU_stratum_or_household_fallback,True
+SHARE,Switzerland,WHO_2000_2025,65-84,444,"post hoc, added after reviewing v1 results",OK,0.03553762514037583,0.022116141142784398,0.056632417051361544,0.008535018566278784,15538.0,PSU_stratum_or_household_fallback,True
+KLoSA,South Korea,pooled_five_cohorts,65plus,216,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+KLoSA,South Korea,WHO_2000_2025,65plus,216,"post hoc, added after reviewing v1 results",NOT_ESTIMABLE_EMPTY_STANDARD_STRATUM,,,,,,,
+KLoSA,South Korea,pooled_five_cohorts,65-84,SUPPRESSED_COMPLEMENT,"post hoc, added after reviewing v1 results",OK,0.16684573723627605,0.12190384593661477,0.22412720729430835,0.025950429055098884,918.0,raw_enumeration_district_harmonized_stratum_binding_correction,True
+KLoSA,South Korea,WHO_2000_2025,65-84,SUPPRESSED_COMPLEMENT,"post hoc, added after reviewing v1 results",OK,0.16252954421688984,0.11758271574434367,0.22036692826817003,0.02607743757490429,918.0,raw_enumeration_district_harmonized_stratum_binding_correction,True

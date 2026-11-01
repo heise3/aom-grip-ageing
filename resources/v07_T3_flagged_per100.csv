@@ -1,0 +1,16 @@
+cohort,definition,n,positive_n,weight,scope,post_hoc,flagged_per100,n_eff,ci_low_per100,ci_high_per100,design_df,singleton_strata,status
+CHARLS,EWGSOP2,336,48,r1wtrespbiob,eligible positive-weight age>=65; not age-standardised,post hoc; v0.7 author decisions2026-10-31,10.062383877875881,64.7601547241211,6.660835439793343,14.923299721963442,436,0,OK
+CHARLS,SDOC,336,117,r1wtrespbiob,eligible positive-weight age>=65; not age-standardised,post hoc; v0.7 author decisions2026-10-31,29.69837763594148,64.7601547241211,21.853225049869856,38.95593997626895,436,0,OK
+CHARLS,FNIH,336,73,r1wtrespbiob,eligible positive-weight age>=65; not age-standardised,post hoc; v0.7 author decisions2026-10-31,18.43709943466598,64.7601547241211,13.02963551038528,25.432474890615087,436,0,OK
+ELSA,EWGSOP2,2006,270,r6nwtresp,eligible positive-weight age>=65; not age-standardised,post hoc; v0.7 author decisions2026-10-31,15.194826838133805,1759.4947509765625,13.475342302307459,17.090383558518287,5876,1,OK
+ELSA,SDOC,2006,764,r6nwtresp,eligible positive-weight age>=65; not age-standardised,post hoc; v0.7 author decisions2026-10-31,40.8428569411936,1759.4947509765625,38.48458093261937,43.24405589033655,5876,1,OK
+ELSA,FNIH,2006,526,r6nwtresp,eligible positive-weight age>=65; not age-standardised,post hoc; v0.7 author decisions2026-10-31,28.84300197913619,1759.4947509765625,26.66517819453766,31.123207550015096,5876,1,OK
+MHAS,EWGSOP2,343,82,factora_12,eligible positive-weight age>=65; not age-standardised,post hoc; v0.7 author decisions2026-10-31,25.57541741345156,106.85251530430969,17.86764402471608,35.18382403996297,1361,0,OK
+MHAS,SDOC,343,193,factora_12,eligible positive-weight age>=65; not age-standardised,post hoc; v0.7 author decisions2026-10-31,56.71391317313339,106.85251530430969,47.61506738415604,65.38139200955472,1361,0,OK
+MHAS,FNIH,343,156,factora_12,eligible positive-weight age>=65; not age-standardised,post hoc; v0.7 author decisions2026-10-31,43.66645264749826,106.85251530430969,34.703749677344426,53.06282758170664,1361,0,OK
+SHARE,EWGSOP2,9532,964,r4wtresp,eligible positive-weight age>=65; not age-standardised,post hoc; v0.7 author decisions2026-10-31,10.92179235024405,2410.718505859375,9.745179996979566,12.221230085911861,15538,131,OK
+SHARE,SDOC,9532,2665,r4wtresp,eligible positive-weight age>=65; not age-standardised,post hoc; v0.7 author decisions2026-10-31,28.79575801687072,2410.718505859375,26.8774275198913,30.79334740990746,15538,131,OK
+SHARE,FNIH,9532,1714,r4wtresp,eligible positive-weight age>=65; not age-standardised,post hoc; v0.7 author decisions2026-10-31,17.94948454093901,2410.718505859375,16.43065515402138,19.57582473067107,15538,131,OK
+KLoSA,EWGSOP2,216,44,r4wtresp,eligible positive-weight age>=65; not age-standardised,post hoc; v0.7 author decisions2026-10-31,19.975623658907864,176.81907653808594,14.762966488971491,26.45751681212053,918,0,OK
+KLoSA,SDOC,216,114,r4wtresp,eligible positive-weight age>=65; not age-standardised,post hoc; v0.7 author decisions2026-10-31,51.42591043685171,176.81907653808594,44.09554141417614,58.69544244738199,918,0,OK
+KLoSA,FNIH,216,55,r4wtresp,eligible positive-weight age>=65; not age-standardised,post hoc; v0.7 author decisions2026-10-31,24.600197313669867,176.81907653808594,18.72430776992511,31.603020434341545,918,0,OK

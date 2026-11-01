@@ -1,0 +1,46 @@
+{
+  "title": "AOM eligibility and low grip strength: analysis code and aggregate results",
+  "upload_type": "software",
+  "version": "v1.0.0",
+  "publication_date": "2026-11-01",
+  "creators": [
+    {
+      "name": "Liang, Peng",
+      "affiliation": "Graduate Training Base, Wenzhou Medical University; Oujiang Laboratory",
+      "orcid": "0009-0007-7583-8595"
+    },
+    {
+      "name": "Wu, Jie",
+      "affiliation": "Oujiang Laboratory"
+    },
+    {
+      "name": "Li, BaoLong",
+      "affiliation": "Graduate Training Base, Wenzhou Medical University; Oujiang Laboratory"
+    },
+    {
+      "name": "Wu, XiangYan",
+      "affiliation": "Graduate Training Base, Wenzhou Medical University; Oujiang Laboratory"
+    },
+    {
+      "name": "Zhu, Xiaona",
+      "affiliation": "Department of Anesthesiology, The First Affiliated Hospital of Wenzhou Medical University",
+      "orcid": "0009-0006-0746-6569"
+    }
+  ],
+  "license": "mit",
+  "description": "Frozen QCv2 and v0.8.1 scientific source and selected aggregate results for the five-cohort descriptive / three-cohort prognostic study. Original software: MIT. Original aggregates/protocols/documentation: CC BY4.0. No participant records or HRS scripts/data are included. The authors confirmed release permission for these summaries.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/heise3/aom-grip-ageing/tree/v1.0.0",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "keywords": [
+    "anti-obesity medication",
+    "grip strength",
+    "older adults",
+    "cohort",
+    "aggregate results"
+  ]
+}

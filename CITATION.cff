@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite this versioned software and aggregate-results release."
+type: software
+title: "AOM eligibility and low grip strength: analysis code and aggregate results"
+version: 1.0.0
+date-released: 2026-11-01
+repository-code: "https://github.com/heise3/aom-grip-ageing"
+url: "https://github.com/heise3/aom-grip-ageing/releases/tag/v1.0.0"
+license: MIT
+authors:
+  - family-names: Liang
+    given-names: Peng
+    orcid: "https://orcid.org/0009-0007-7583-8595"
+  - family-names: Wu
+    given-names: Jie
+  - family-names: Li
+    given-names: BaoLong
+  - family-names: Wu
+    given-names: XiangYan
+  - family-names: Zhu
+    given-names: Xiaona
+    orcid: "https://orcid.org/0009-0006-0746-6569"

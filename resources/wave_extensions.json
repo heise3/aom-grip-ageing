@@ -1,0 +1,14 @@
+{
+  "/2020charls/Health_Status_and_Functioning.dta": {
+    "path": "${DATA_VOLUME}/七大老年健康数据库资料含清洗前后数据支持多格式含CHARLS/5.七大老年健康数据库数据 离线/1. CHARLS  中国/CHARLS_中国/Raw_data/2020charls/Health_Status_and_Functioning.dta"
+  },
+  "/2020charls/Sample_Infor.dta": {
+    "path": "${DATA_VOLUME}/七大老年健康数据库资料含清洗前后数据支持多格式含CHARLS/5.七大老年健康数据库数据 离线/1. CHARLS  中国/CHARLS_中国/Raw_data/2020charls/Sample_Infor.dta"
+  },
+  "/Core survey Data/sect_a_c_d_e_pc_f_h_i_2021.dta": {
+    "path": "${DATA_VOLUME}/七大老年健康数据库资料含清洗前后数据支持多格式含CHARLS/5.七大老年健康数据库数据 离线/6. MHAS 墨西哥/MHAS_墨西哥/Raw_data/wave6/Core survey Data/sect_a_c_d_e_pc_f_h_i_2021.dta"
+  },
+  "/Master Follow-up File/master_follow_up_file_2021.dta": {
+    "path": "${DATA_VOLUME}/七大老年健康数据库资料含清洗前后数据支持多格式含CHARLS/5.七大老年健康数据库数据 离线/6. MHAS 墨西哥/MHAS_墨西哥/Raw_data/Master Follow-up File/master_follow_up_file_2021.dta"
+  }
+}

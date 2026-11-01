@@ -1,0 +1,7 @@
+country_cohort,drug,BMI_alone,BMI_plus_comorbidity,source_scope,url
+EU_SHARE,Wegovy,30,27,EMA adult weight management,https://www.ema.europa.eu/en/medicines/human/EPAR/wegovy
+UK_ELSA,Wegovy,30,27,SmPC section4.1,https://www.medicines.org.uk/emc/product/13799/smpc
+China_CHARLS,Wegovy,30,27,2024-06-25 manufacturer approved indication,https://www.novonordisk.com.cn/content/dam/nncorp/cn/zh_cn/ir-materials/pdfs/2024/2024062501.pdf
+Mexico_MHAS,Wegovy,30,27,Novo Nordisk IPPA reproduced by PLM; regulator original not retrieved,https://www.medicamentosplm.com/Home/productos/wegovy.solucion.inyectable/123/101/80699/162
+Korea_KLoSA,Wegovy,30,27,MFDS approved product202301384,https://nedrug.mfds.go.kr/pbp/CCBBB01/getItemDetailCache?cacheSeq=202301384aupdateTs2026-10-16+18%3A02%3A01.248603b
+Switzerland_SHARE,Wegovy,30,27,Swissmedic AIPS; official BAG reproduces indication,https://www.bag.admin.ch/dam/fr/sd-web/4UEBFvIzBFFM/wegovy-neuaufnahme-01-03-2024.pdf

@@ -1,0 +1,17 @@
+cohort,variable,level,model_role,coefficient,source
+SHARE,country,Austria,Categorical fixed effect; unchanged frozen model,Not present in permitted aggregate exports; not re-estimated,Frozen model specification; T1_table1_all.csv country levels
+SHARE,country,Germany,Categorical fixed effect; unchanged frozen model,Not present in permitted aggregate exports; not re-estimated,Frozen model specification; T1_table1_all.csv country levels
+SHARE,country,Sweden,Categorical fixed effect; unchanged frozen model,Not present in permitted aggregate exports; not re-estimated,Frozen model specification; T1_table1_all.csv country levels
+SHARE,country,Netherlands,Categorical fixed effect; unchanged frozen model,Not present in permitted aggregate exports; not re-estimated,Frozen model specification; T1_table1_all.csv country levels
+SHARE,country,Spain,Categorical fixed effect; unchanged frozen model,Not present in permitted aggregate exports; not re-estimated,Frozen model specification; T1_table1_all.csv country levels
+SHARE,country,Italy,Categorical fixed effect; unchanged frozen model,Not present in permitted aggregate exports; not re-estimated,Frozen model specification; T1_table1_all.csv country levels
+SHARE,country,France,Categorical fixed effect; unchanged frozen model,Not present in permitted aggregate exports; not re-estimated,Frozen model specification; T1_table1_all.csv country levels
+SHARE,country,Denmark,Categorical fixed effect; unchanged frozen model,Not present in permitted aggregate exports; not re-estimated,Frozen model specification; T1_table1_all.csv country levels
+SHARE,country,Switzerland,Categorical fixed effect; unchanged frozen model,Not present in permitted aggregate exports; not re-estimated,Frozen model specification; T1_table1_all.csv country levels
+SHARE,country,Belgium,Categorical fixed effect; unchanged frozen model,Not present in permitted aggregate exports; not re-estimated,Frozen model specification; T1_table1_all.csv country levels
+SHARE,country,Czech Republic,Categorical fixed effect; unchanged frozen model,Not present in permitted aggregate exports; not re-estimated,Frozen model specification; T1_table1_all.csv country levels
+SHARE,country,Poland,Categorical fixed effect; unchanged frozen model,Not present in permitted aggregate exports; not re-estimated,Frozen model specification; T1_table1_all.csv country levels
+SHARE,country,Hungary,Categorical fixed effect; unchanged frozen model,Not present in permitted aggregate exports; not re-estimated,Frozen model specification; T1_table1_all.csv country levels
+SHARE,country,Portugal,Categorical fixed effect; unchanged frozen model,Not present in permitted aggregate exports; not re-estimated,Frozen model specification; T1_table1_all.csv country levels
+SHARE,country,Slovenia,Categorical fixed effect; unchanged frozen model,Not present in permitted aggregate exports; not re-estimated,Frozen model specification; T1_table1_all.csv country levels
+SHARE,country,Estonia,Categorical fixed effect; unchanged frozen model,Not present in permitted aggregate exports; not re-estimated,Frozen model specification; T1_table1_all.csv country levels
